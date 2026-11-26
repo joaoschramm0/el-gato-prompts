@@ -1,0 +1,211 @@
+frame,ts,is_claude,prompt
+data/frames/frame_000001.jpg,0,False,
+data/frames/frame_000016.jpg,75,False,
+data/frames/frame_000031.jpg,150,False,
+data/frames/frame_000046.jpg,225,True,
+data/frames/frame_000061.jpg,300,False,
+data/frames/frame_000076.jpg,375,False,
+data/frames/frame_000091.jpg,450,False,
+data/frames/frame_000106.jpg,525,False,
+data/frames/frame_000121.jpg,600,False,
+data/frames/frame_000136.jpg,675,True,
+data/frames/frame_000151.jpg,750,True,
+data/frames/frame_000166.jpg,825,False,
+data/frames/frame_000181.jpg,900,False,
+data/frames/frame_000196.jpg,975,False,
+data/frames/frame_000211.jpg,1050,True,TERMINAR EU QUERIA COMEÇAR ALG
+data/frames/frame_000226.jpg,1125,True,
+data/frames/frame_000241.jpg,1200,False,
+data/frames/frame_000256.jpg,1275,True,TIPO MANO VAMOS BA TER DE FREE
+data/frames/frame_000271.jpg,1350,True,
+data/frames/frame_000286.jpg,1425,True,DOWLOAD NO
+data/frames/frame_000301.jpg,1500,True,
+data/frames/frame_000316.jpg,1575,True,
+data/frames/frame_000331.jpg,1650,True,aprovo cria do zero
+data/frames/frame_000346.jpg,1725,True,aprovo cria do zero
+data/frames/frame_000361.jpg,1800,False,
+data/frames/frame_000376.jpg,1875,False,
+data/frames/frame_000391.jpg,1950,True,
+data/frames/frame_000406.jpg,2025,True,
+data/frames/frame_000421.jpg,2100,True,
+data/frames/frame_000436.jpg,2175,True,
+data/frames/frame_000451.jpg,2250,True,
+data/frames/frame_000466.jpg,2325,True,
+data/frames/frame_000481.jpg,2400,True,
+data/frames/frame_000496.jpg,2475,True,
+data/frames/frame_000511.jpg,2550,True,
+data/frames/frame_000526.jpg,2625,True,LOBY CRIA O LOBY AGOIRA FO
+data/frames/frame_000541.jpg,2700,True,LOBBY B E PISTA B
+data/frames/frame_000556.jpg,2775,True,LOBBY B E PISTA B
+data/frames/frame_000571.jpg,2850,True,
+data/frames/frame_000586.jpg,2925,True,
+data/frames/frame_000601.jpg,3000,True,MANO QUERO ESSA TESTURA ESSA ILUMINACAO PRESTA ATENCAO CLAUDE PORRA !!! OIOOOOOO OIA OQ TO TE PEDINOOO PRA VC NAO FAZER MER
+data/frames/frame_000616.jpg,3075,True,
+data/frames/frame_000631.jpg,3150,True,
+data/frames/frame_000646.jpg,3225,True,
+data/frames/frame_000661.jpg,3300,True,
+data/frames/frame_000676.jpg,3375,True,
+data/frames/frame_000691.jpg,3450,True,"mano, qual as novidades ai tu ja fez o carro viper novo?"
+data/frames/frame_000706.jpg,3525,True,
+data/frames/frame_000721.jpg,3600,True,manda o plano quando ficar pronto
+data/frames/frame_000736.jpg,3675,True,manda o plano quando ficar pronto
+data/frames/frame_000751.jpg,3750,True,manda o plano quando ficar pronto
+data/frames/frame_000766.jpg,3825,True,manda o plano quando ficar pronto
+data/frames/frame_000781.jpg,3900,True,
+data/frames/frame_000796.jpg,3975,True,E DE NOITE TAMBEM?
+data/frames/frame_000811.jpg,4050,False,
+data/frames/frame_000826.jpg,4125,False,
+data/frames/frame_000841.jpg,4200,True,
+data/frames/frame_000856.jpg,4275,True,manda os prints quando sair porra
+data/frames/frame_000871.jpg,4350,True,
+data/frames/frame_000886.jpg,4425,False,
+data/frames/frame_000901.jpg,4500,True,manda os prints quando sair porra
+data/frames/frame_000916.jpg,4575,True,manda os prints quando sair porra
+data/frames/frame_000931.jpg,4650,True,manda os prints quando sair porra
+data/frames/frame_000946.jpg,4725,True,
+data/frames/frame_000961.jpg,4800,True,manda as imagens assim que sair
+data/frames/frame_000976.jpg,4875,True,manda as imagens assim que sair
+data/frames/frame_000991.jpg,4950,True,manda as imagens assim que sair
+data/frames/frame_001006.jpg,5025,True,CARA GO
+data/frames/frame_001021.jpg,5100,True,manda os carros 2 a 5 novos
+data/frames/frame_001036.jpg,5175,True,manda os carros 2 a 5 novos
+data/frames/frame_001051.jpg,5250,True,manda os carros 2 a 5 novos
+data/frames/frame_001066.jpg,5325,True,manda os carros 2 a 5 novos
+data/frames/frame_001081.jpg,5400,True,manda os carros 2 a 5 novos
+data/frames/frame_001096.jpg,5475,True,manda os carros 2 a 5 novos
+data/frames/frame_001111.jpg,5550,True,
+data/frames/frame_001126.jpg,5625,True,
+data/frames/frame_001141.jpg,5700,True,manda os prints da rua neon
+data/frames/frame_001156.jpg,5775,True,manda print quando sair
+data/frames/frame_001171.jpg,5850,True,manda print quando sair
+data/frames/frame_001186.jpg,5925,False,
+data/frames/frame_001201.jpg,6000,True,manda print quando sair
+data/frames/frame_001216.jpg,6075,True,manda print quando sair
+data/frames/frame_001231.jpg,6150,True,
+data/frames/frame_001246.jpg,6225,True,
+data/frames/frame_001261.jpg,6300,True,
+data/frames/frame_001276.jpg,6375,True,
+data/frames/frame_001291.jpg,6450,True,e ai mostra alguma coisa
+data/frames/frame_001306.jpg,6525,True,
+data/frames/frame_001321.jpg,6600,True,manda as fotos da vitrine
+data/frames/frame_001336.jpg,6675,True,manda as fotos da vitrine
+data/frames/frame_001351.jpg,6750,False,
+data/frames/frame_001366.jpg,6825,False,
+data/frames/frame_001381.jpg,6900,True,
+data/frames/frame_001396.jpg,6975,True,cade o viper na rua porra
+data/frames/frame_001411.jpg,7050,True,
+data/frames/frame_001426.jpg,7125,True,mostra ai alguma coisa
+data/frames/frame_001441.jpg,7200,True,e ai ja ta pronto o jogavel?
+data/frames/frame_001456.jpg,7275,True,e ai ja ta pronto o jogavel?
+data/frames/frame_001471.jpg,7350,True,
+data/frames/frame_001486.jpg,7425,True,
+data/frames/frame_001501.jpg,7500,True,
+data/frames/frame_001516.jpg,7575,True,"aprovo a árvore, e o jogo cadê?"
+data/frames/frame_001531.jpg,7650,True,"aprovo a árvore, e o jogo cadê?"
+data/frames/frame_001546.jpg,7725,True,manda as fotos da vitrine
+data/frames/frame_001561.jpg,7800,True,
+data/frames/frame_001576.jpg,7875,True,ta meio feio viado isso parece jogo de need for speed? taqu
+data/frames/frame_001591.jpg,7950,True,
+data/frames/frame_001606.jpg,8025,False,
+data/frames/frame_001621.jpg,8100,False,
+data/frames/frame_001636.jpg,8175,False,
+data/frames/frame_001651.jpg,8250,True,e ai abriu o jogo?
+data/frames/frame_001666.jpg,8325,True,
+data/frames/frame_001681.jpg,8400,True,MANO VAI SE FUDER 2
+data/frames/frame_001696.jpg,8475,True,
+data/frames/frame_001711.jpg,8550,False,
+data/frames/frame_001726.jpg,8625,False,
+data/frames/frame_001741.jpg,8700,True,e ai ja ta pronto o jogavel?
+data/frames/frame_001756.jpg,8775,True,
+data/frames/frame_001771.jpg,8850,True,
+data/frames/frame_001786.jpg,8925,True,
+data/frames/frame_001801.jpg,9000,True,
+data/frames/frame_001816.jpg,9075,True,
+data/frames/frame_001831.jpg,9150,True,mostra a lista dos pacotes pra comprar
+data/frames/frame_001846.jpg,9225,True,
+data/frames/frame_001861.jpg,9300,True,
+data/frames/frame_001876.jpg,9375,True,cade o viper na rua porra
+data/frames/frame_001891.jpg,9450,True,
+data/frames/frame_001906.jpg,9525,True,e ai mostra alguma coisa
+data/frames/frame_001921.jpg,9600,True,e ai cade a foto nova
+data/frames/frame_001936.jpg,9675,True,
+data/frames/frame_001951.jpg,9750,True,mostra ai alguma coisa
+data/frames/frame_001966.jpg,9825,False,
+data/frames/frame_001981.jpg,9900,True,"aprovo a árvore, e o jogo cadê?"
+data/frames/frame_001996.jpg,9975,True,
+data/frames/frame_002011.jpg,10050,True,manda as fotos da vitrine
+data/frames/frame_002026.jpg,10125,True,ta meio feio viado isso parece jogo de need for speed? taqu
+data/frames/frame_002041.jpg,10200,True,
+data/frames/frame_002056.jpg,10275,True,
+data/frames/frame_002071.jpg,10350,True,e ai abriu o jogo?
+data/frames/frame_002086.jpg,10425,True,
+data/frames/frame_002101.jpg,10500,True,e ai mostra alguma coisa
+data/frames/frame_002116.jpg,10575,True,e ai cade a foto nova
+data/frames/frame_002131.jpg,10650,False,
+data/frames/frame_002146.jpg,10725,True,mostra a lista dos pacotes pra comprar
+data/frames/frame_002161.jpg,10800,True,
+data/frames/frame_002176.jpg,10875,True,
+data/frames/frame_002191.jpg,10950,False,
+data/frames/frame_002206.jpg,11025,True,
+data/frames/frame_002221.jpg,11100,True,
+data/frames/frame_002236.jpg,11175,True,e ai mostra alguma coisa nova
+data/frames/frame_002251.jpg,11250,True,
+data/frames/frame_002266.jpg,11325,True,mostra ai alguma coisa
+data/frames/frame_002281.jpg,11400,False,
+data/frames/frame_002296.jpg,11475,False,
+data/frames/frame_002311.jpg,11550,True,
+data/frames/frame_002326.jpg,11625,True,
+data/frames/frame_002341.jpg,11700,True,mostra a loja 2 com o carro nítido
+data/frames/frame_002356.jpg,11775,True,
+data/frames/frame_002371.jpg,11850,True,mostra a rodada 2 com o carro nítido
+data/frames/frame_002386.jpg,11925,True,mostra a rodada 2 com o carro nítido
+data/frames/frame_002401.jpg,12000,True,
+data/frames/frame_002416.jpg,12075,True,
+data/frames/frame_002431.jpg,12150,True,e ai mostra alguma coisa
+data/frames/frame_002446.jpg,12225,True,e ai mostra alguma coisa nova
+data/frames/frame_002461.jpg,12300,True,mostra a rodada 2 com o carro nítido
+data/frames/frame_002476.jpg,12375,True,
+data/frames/frame_002491.jpg,12450,True,e ai mostra alguma coisa
+data/frames/frame_002506.jpg,12525,True,
+data/frames/frame_002521.jpg,12600,True,e ai mostra alguma coisa
+data/frames/frame_002536.jpg,12675,True,e ai mostra alguma coisa
+data/frames/frame_002551.jpg,12750,True,
+data/frames/frame_002566.jpg,12825,True,
+data/frames/frame_002581.jpg,12900,True,e ai mostra alguma coisa
+data/frames/frame_002596.jpg,12975,True,e ai mostra alguma coisa
+data/frames/frame_002611.jpg,13050,True,mostra a loja 2 com o carro nítido
+data/frames/frame_002626.jpg,13125,True,
+data/frames/frame_002641.jpg,13200,True,
+data/frames/frame_002656.jpg,13275,True,
+data/frames/frame_002671.jpg,13350,True,e ai mostra alguma coisa
+data/frames/frame_002686.jpg,13425,True,mostra ai alguma coisa
+data/frames/frame_002701.jpg,13500,True,
+data/frames/frame_002716.jpg,13575,True,e ai mostra alguma coisa nova
+data/frames/frame_002731.jpg,13650,True,e ai mostra alguma coisa nova
+data/frames/frame_002746.jpg,13725,True,mostra a lista dos pacotes pra comprar
+data/frames/frame_002761.jpg,13800,False,
+data/frames/frame_002776.jpg,13875,False,
+data/frames/frame_002791.jpg,13950,True,mostra a lista dos pacotes pra comprar
+data/frames/frame_002806.jpg,14025,True,
+data/frames/frame_002821.jpg,14100,True,mostra a rodada 2 com o carro nitido
+data/frames/frame_002836.jpg,14175,True,mostra a rodada 2 com o carro nitido
+data/frames/frame_002851.jpg,14250,True,mostra a rodada 2 com o carro nitido
+data/frames/frame_002866.jpg,14325,True,e ai cade a foto nova
+data/frames/frame_002881.jpg,14400,True,
+data/frames/frame_002896.jpg,14475,True,
+data/frames/frame_002911.jpg,14550,True,
+data/frames/frame_002926.jpg,14625,True,mostra a rodada 2 da rodovia
+data/frames/frame_002941.jpg,14700,True,
+data/frames/frame_002956.jpg,14775,True,mostra a lista dos pacotes
+data/frames/frame_002971.jpg,14850,True,
+data/frames/frame_002986.jpg,14925,True,
+data/frames/frame_003001.jpg,15000,False,
+data/frames/frame_003016.jpg,15075,True,
+data/frames/frame_003031.jpg,15150,True,
+data/frames/frame_003046.jpg,15225,True,
+data/frames/frame_003061.jpg,15300,True,"Explica para mim o que você quer comprar, sendo que a gente ja tem comprado ou você não está achando no download?"
+data/frames/frame_003076.jpg,15375,True,
+data/frames/frame_003091.jpg,15450,True,
+data/frames/frame_003106.jpg,15525,True,
+data/frames/frame_003121.jpg,15600,True,pode baixar
+data/frames/frame_003136.jpg,15675,True,

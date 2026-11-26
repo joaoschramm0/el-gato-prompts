@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1" />
+<title>El Gato — Termômetro de Similaridade</title>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+:root{
+  --bg:#0e0e10;
+  --surface:#1a1a1e;
+  --surface2:#242428;
+  --border:#2e2e33;
+  --text:#ececec;
+  --muted:#9a9aa0;
+  --accent:#d97706;
+  --accent2:#f59e0b;
+  --radius:16px;
+  --radius-sm:12px;
+}
+html,body{height:100%}
+body{
+  font-family: ui-sans-system, -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  -webkit-font-smoothing:antialiased;
+}
+.wrap{
+  max-width:720px;
+  margin:0 auto;
+  padding:32px 20px 48px;
+}
+header{
+  display:flex;align-items:center;gap:12px;
+  margin-bottom:28px;
+}
+.logo{
+  width:36px;height:36px;border-radius:10px;
+  background: linear-gradient(135deg,#f59e0b,#d97706);
+  display:grid;place-items:center;
+  font-size:18px;
+}
+header h1{font-size:18px;font-weight:600;letter-spacing:-0.02em}
+header h1 span{font-weight:400;color:var(--muted);font-size:13px;margin-left:8px}
+.badge{
+  margin-left:auto;
+  font-size:11px;letter-spacing:0.08em;text-transform:uppercase;
+  color:#a1a1aa;border:1px solid var(--border);
+  padding:6px 10px;border-radius:999px;background:var(--surface);
+}
+.card{
+  background:var(--surface);
+  border:1px solid var(--border);
+  border-radius:var(--radius);
+  padding:20px;
+}
+.card + .card{margin-top:16px}
+.label{
+  font-size:11px;letter-spacing:0.08em;text-transform:uppercase;
+  color:var(--muted);margin-bottom:10px;display:block;
+}
+textarea{
+  width:100%;min-height:120px;
+  background:var(--surface2);
+  border:1px solid var(--border);
+  border-radius:var(--radius-sm);
+  color:var(--text);
+  padding:14px 14px;
+  font-size:14px;line-height:1.5;
+  resize:vertical;
+  outline:none;
+  font-family:inherit;
+}
+textarea::placeholder{color:#6b7280}
+textarea:focus{border-color:#3f3f46;box-shadow:0 0 0 3px rgba(245,158,11,0.12)}
+.row{
+  display:flex;gap:10px;align-items:center;margin-top:14px;flex-wrap:wrap;
+}
+.btn-primary{
+  appearance:none;border:0;cursor:pointer;
+  background:linear-gradient(135deg,#f59e0b,#d97706);
+  color:#111;font-weight:600;font-size:14px;
+  padding:11px 18px;border-radius:999px;
+  display:inline-flex;align-items:center;gap:8px;
+  transition:filter .15s,transform .08s;
+}
+.btn-primary:hover{filter:brightness(1.07)}
+.btn-primary:active{transform:scale(0.98)}
+.btn-ghost{
+  appearance:none;cursor:pointer;
+  background:transparent;border:1px solid var(--border);
+  color:var(--muted);font-size:13px;
+  padding:10px 14px;border-radius:999px;
+}
+.btn-ghost:hover{color:var(--text);border-color:#3f3f46}
+.hint{font-size:12px;color:var(--muted);margin-left:auto}
+.gauge-wrap{
+  display:flex;flex-direction:column;align-items:center;
+  padding:8px 0 4px;
+}
+.gauge-num{
+  font-size:42px;font-weight:700;letter-spacing:-0.04em;line-height:1;
+}
+.gauge-label{font-size:12px;color:var(--muted);margin-top:4px;letter-spacing:0.04em}
+.gauge-sub{font-size:12px;color:var(--muted);margin-top:10px;text-align:center;min-height:18px}
+.divider{height:1px;background:var(--border);margin:18px 0}
+.list-title{font-size:13px;font-weight:600;margin-bottom:10px}
+.top3{display:flex;flex-direction:column;gap:8px}
+.top-item{
+  display:flex;gap:12px;align-items:flex-start;
+  background:var(--surface2);border:1px solid var(--border);
+  border-radius:12px;padding:12px 14px;
+}
+.top-rank{
+  flex:0 0 28px;height:28px;border-radius:999px;
+  display:grid;place-items:center;font-size:12px;font-weight:700;
+  background:#2a2a2e;color:var(--muted);border:1px solid var(--border);
+}
+.top-item:first-child .top-rank{background:rgba(245,158,11,0.15);color:#f59e0b;border-color:rgba(245,158,11,0.3)}
+.top-text{font-size:13px;line-height:1.45;color:#d4d4d8;flex:1}
+.top-score{font-size:12px;font-weight:600;color:var(--muted);white-space:nowrap;margin-top:1px}
+.share-card{
+  background: linear-gradient(135deg, #1e1a12 0%, #1a1a1e 60%);
+  border:1px solid rgba(245,158,11,0.18);
+}
+.share-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
+.share-head strong{font-size:13px}
+.share-body{
+  background:rgba(0,0,0,0.25);border:1px solid var(--border);
+  border-radius:12px;padding:12px 14px;
+  font-size:13px;line-height:1.5;color:#d4d4d8;white-space:pre-wrap;word-break:break-word;
+  min-height:44px;
+}
+.share-actions{display:flex;gap:8px;margin-top:12px}
+.footer{margin-top:20px;text-align:center;font-size:11px;color:#52525b;letter-spacing:0.04em}
+a{color:#f59e0b;text-decoration:none}
+a:hover{text-decoration:underline}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">🐱</div>
+    <h1>El Gato <span>Termômetro de Similaridade</span></h1>
+    <span class="badge" id="modeBadge">modo local</span>
+  </header>
+
+  <div class="card">
+    <label class="label" for="promptInput">Seu prompt</label>
+    <textarea id="promptInput" placeholder="Cole seu prompt aqui…&#10;Ex: aprovo a árvore, e o jogo cadê?"></textarea>
+    <div class="row">
+      <button class="btn-primary" id="btnMeasure">◉ Medir El Gato</button>
+      <button class="btn-ghost" id="btnClear">Limpar</button>
+      <span class="hint">Enter + Ctrl para medir</span>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="gauge-wrap">
+      <!-- semicircular gauge -->
+      <svg id="gauge" width="260" height="150" viewBox="0 0 200 115" aria-label="termômetro 0 a 100%">
+        <defs>
+          <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%" stop-color="#ef4444"/>
+            <stop offset="45%" stop-color="#f59e0b"/>
+            <stop offset="100%" stop-color="#22c55e"/>
+          </linearGradient>
+        </defs>
+        <!-- track -->
+        <path id="gaugeTrack" d="M 14 100 A 86 86 0 0 1 186 100" fill="none" stroke="#2a2a2e" stroke-width="14" stroke-linecap="round"/>
+        <!-- fill -->
+        <path id="gaugeFill" d="M 14 100 A 86 86 0 0 1 186 100" fill="none" stroke="url(#grad)" stroke-width="14" stroke-linecap="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" style="transition: stroke-dashoffset .7s cubic-bezier(.22,1,.36,1)"/>
+        <!-- ticks -->
+        <g stroke="#3f3f46" stroke-width="1" opacity="0.9">
+          <line x1="14" y1="100" x2="18" y2="92"/>
+          <line x1="100" y1="14" x2="100" y2="22"/>
+          <line x1="186" y1="100" x2="182" y2="92"/>
+        </g>
+        <!-- needle pivot -->
+        <circle cx="100" cy="100" r="4.5" fill="#ececec" />
+        <line id="needle" x1="100" y1="100" x2="100" y2="22" stroke="#ececec" stroke-width="2.2" stroke-linecap="round" style="transform-origin:100px 100px; transform: rotate(-90deg); transition: transform .7s cubic-bezier(.22,1,.36,1)"/>
+        <circle cx="100" cy="100" r="2" fill="#0e0e10"/>
+      </svg>
+      <div class="gauge-num" id="scoreNum">—</div>
+      <div class="gauge-label" id="scoreLabel">AGUARDANDO MEDIÇÃO</div>
+      <div class="gauge-sub" id="scoreSub">Cole um prompt e clique em Medir El Gato.</div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="list-title">Top 3 prompts mais próximos</div>
+    <div class="top3" id="top3">
+      <!-- filled by JS -->
+    </div>
+  </div>
+
+  <div class="card share-card" id="shareCard">
+    <div class="share-head">
+      <strong>Card para compartilhar</strong>
+      <span style="font-size:11px;color:var(--muted)">preview</span>
+    </div>
+    <div class="share-body" id="shareBody">Seu resultado aparecerá aqui.</div>
+    <div class="share-actions">
+      <button class="btn-ghost" id="btnCopy">Copiar texto</button>
+      <button class="btn-ghost" id="btnCopyPrompt">Copiar prompt</button>
+    </div>
+  </div>
+
+  <div class="footer">El Gato Prompts · MVP local · sem build · funciona em <code>file://</code> · <span id="footerMode">TF-IDF local</span></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+yt-dlp
+opencv-python
+Pillow
+numpy
+scikit-learn
+rapidfuzz
+# opcional (descomente se quiser OCR/embeddings locais):
+# easyocr
+# pytesseract
+# sentence-transformers

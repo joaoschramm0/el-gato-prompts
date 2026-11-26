@@ -1,0 +1,247 @@
+[
+  {
+    "frame": "data/frames/frame_000211.jpg",
+    "ts_seconds": 1050,
+    "is_claude": true,
+    "prompt": "TERMINAR EU QUERIA COMEÇAR ALG",
+    "conf": 0.85
+  },
+  {
+    "frame": "data/frames/frame_000256.jpg",
+    "ts_seconds": 1275,
+    "is_claude": true,
+    "prompt": "TIPO MANO VAMOS BA TER DE FREE",
+    "conf": 0.85
+  },
+  {
+    "frame": "data/frames/frame_000286.jpg",
+    "ts_seconds": 1425,
+    "is_claude": true,
+    "prompt": "DOWLOAD NO",
+    "conf": 0.8
+  },
+  {
+    "frame": "data/frames/frame_000331.jpg",
+    "ts_seconds": 1650,
+    "is_claude": true,
+    "prompt": "aprovo cria do zero",
+    "conf": 0.92
+  },
+  {
+    "frame": "data/frames/frame_000526.jpg",
+    "ts_seconds": 2625,
+    "is_claude": true,
+    "prompt": "LOBY CRIA O LOBY AGOIRA FO",
+    "conf": 0.8
+  },
+  {
+    "frame": "data/frames/frame_000541.jpg",
+    "ts_seconds": 2700,
+    "is_claude": true,
+    "prompt": "LOBBY B E PISTA B",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000601.jpg",
+    "ts_seconds": 3000,
+    "is_claude": true,
+    "prompt": "MANO QUERO ESSA TESTURA ESSA ILUMINACAO PRESTA ATENCAO CLAUDE PORRA !!! OIOOOOOO OIA OQ TO TE PEDINOOO PRA VC NAO FAZER MER",
+    "conf": 0.82
+  },
+  {
+    "frame": "data/frames/frame_000691.jpg",
+    "ts_seconds": 3450,
+    "is_claude": true,
+    "prompt": "mano, qual as novidades ai tu ja fez o carro viper novo?",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000721.jpg",
+    "ts_seconds": 3600,
+    "is_claude": true,
+    "prompt": "manda o plano quando ficar pronto",
+    "conf": 0.95
+  },
+  {
+    "frame": "data/frames/frame_000796.jpg",
+    "ts_seconds": 3975,
+    "is_claude": true,
+    "prompt": "E DE NOITE TAMBEM?",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000856.jpg",
+    "ts_seconds": 4275,
+    "is_claude": true,
+    "prompt": "manda os prints quando sair porra",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000961.jpg",
+    "ts_seconds": 4800,
+    "is_claude": true,
+    "prompt": "manda as imagens assim que sair",
+    "conf": 0.92
+  },
+  {
+    "frame": "data/frames/frame_001006.jpg",
+    "ts_seconds": 5025,
+    "is_claude": true,
+    "prompt": "CARA GO",
+    "conf": 0.75
+  },
+  {
+    "frame": "data/frames/frame_001021.jpg",
+    "ts_seconds": 5100,
+    "is_claude": true,
+    "prompt": "manda os carros 2 a 5 novos",
+    "conf": 0.96
+  },
+  {
+    "frame": "data/frames/frame_001141.jpg",
+    "ts_seconds": 5700,
+    "is_claude": true,
+    "prompt": "manda os prints da rua neon",
+    "conf": 0.92
+  },
+  {
+    "frame": "data/frames/frame_001156.jpg",
+    "ts_seconds": 5775,
+    "is_claude": true,
+    "prompt": "manda print quando sair",
+    "conf": 0.92
+  },
+  {
+    "frame": "data/frames/frame_001291.jpg",
+    "ts_seconds": 6450,
+    "is_claude": true,
+    "prompt": "e ai mostra alguma coisa",
+    "conf": 0.85
+  },
+  {
+    "frame": "data/frames/frame_001321.jpg",
+    "ts_seconds": 6600,
+    "is_claude": true,
+    "prompt": "manda as fotos da vitrine",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001396.jpg",
+    "ts_seconds": 6975,
+    "is_claude": true,
+    "prompt": "cade o viper na rua porra",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001426.jpg",
+    "ts_seconds": 7125,
+    "is_claude": true,
+    "prompt": "mostra ai alguma coisa",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_001441.jpg",
+    "ts_seconds": 7200,
+    "is_claude": true,
+    "prompt": "e ai ja ta pronto o jogavel?",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001516.jpg",
+    "ts_seconds": 7575,
+    "is_claude": true,
+    "prompt": "aprovo a árvore, e o jogo cadê?",
+    "conf": 0.93
+  },
+  {
+    "frame": "data/frames/frame_001576.jpg",
+    "ts_seconds": 7875,
+    "is_claude": true,
+    "prompt": "ta meio feio viado isso parece jogo de need for speed? taqu",
+    "conf": 0.8
+  },
+  {
+    "frame": "data/frames/frame_001651.jpg",
+    "ts_seconds": 8250,
+    "is_claude": true,
+    "prompt": "e ai abriu o jogo?",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_001681.jpg",
+    "ts_seconds": 8400,
+    "is_claude": true,
+    "prompt": "MANO VAI SE FUDER 2",
+    "conf": 0.85
+  },
+  {
+    "frame": "data/frames/frame_001831.jpg",
+    "ts_seconds": 9150,
+    "is_claude": true,
+    "prompt": "mostra a lista dos pacotes pra comprar",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_001921.jpg",
+    "ts_seconds": 9600,
+    "is_claude": true,
+    "prompt": "e ai cade a foto nova",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002236.jpg",
+    "ts_seconds": 11175,
+    "is_claude": true,
+    "prompt": "e ai mostra alguma coisa nova",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002341.jpg",
+    "ts_seconds": 11700,
+    "is_claude": true,
+    "prompt": "mostra a loja 2 com o carro nítido",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002371.jpg",
+    "ts_seconds": 11850,
+    "is_claude": true,
+    "prompt": "mostra a rodada 2 com o carro nítido",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002821.jpg",
+    "ts_seconds": 14100,
+    "is_claude": true,
+    "prompt": "mostra a rodada 2 com o carro nitido",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002926.jpg",
+    "ts_seconds": 14625,
+    "is_claude": true,
+    "prompt": "mostra a rodada 2 da rodovia",
+    "conf": 0.85
+  },
+  {
+    "frame": "data/frames/frame_002956.jpg",
+    "ts_seconds": 14775,
+    "is_claude": true,
+    "prompt": "mostra a lista dos pacotes",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_003061.jpg",
+    "ts_seconds": 15300,
+    "is_claude": true,
+    "prompt": "Explica para mim o que você quer comprar, sendo que a gente ja tem comprado ou você não está achando no download?",
+    "conf": 0.82
+  },
+  {
+    "frame": "data/frames/frame_003121.jpg",
+    "ts_seconds": 15600,
+    "is_claude": true,
+    "prompt": "pode baixar",
+    "conf": 0.9
+  }
+]

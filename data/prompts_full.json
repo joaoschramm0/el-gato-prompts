@@ -1,0 +1,1472 @@
+[
+  {
+    "frame": "data/frames/frame_000001.jpg",
+    "ts_seconds": 0,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.95
+  },
+  {
+    "frame": "data/frames/frame_000016.jpg",
+    "ts_seconds": 75,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.95
+  },
+  {
+    "frame": "data/frames/frame_000031.jpg",
+    "ts_seconds": 150,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000046.jpg",
+    "ts_seconds": 225,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000061.jpg",
+    "ts_seconds": 300,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000076.jpg",
+    "ts_seconds": 375,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000091.jpg",
+    "ts_seconds": 450,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000106.jpg",
+    "ts_seconds": 525,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000121.jpg",
+    "ts_seconds": 600,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000136.jpg",
+    "ts_seconds": 675,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000151.jpg",
+    "ts_seconds": 750,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000166.jpg",
+    "ts_seconds": 825,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000181.jpg",
+    "ts_seconds": 900,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000196.jpg",
+    "ts_seconds": 975,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000211.jpg",
+    "ts_seconds": 1050,
+    "is_claude": true,
+    "prompt": "TERMINAR EU QUERIA COMEÇAR ALG",
+    "conf": 0.85
+  },
+  {
+    "frame": "data/frames/frame_000226.jpg",
+    "ts_seconds": 1125,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000241.jpg",
+    "ts_seconds": 1200,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.8
+  },
+  {
+    "frame": "data/frames/frame_000256.jpg",
+    "ts_seconds": 1275,
+    "is_claude": true,
+    "prompt": "TIPO MANO VAMOS BA TER DE FREE",
+    "conf": 0.85
+  },
+  {
+    "frame": "data/frames/frame_000271.jpg",
+    "ts_seconds": 1350,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.7
+  },
+  {
+    "frame": "data/frames/frame_000286.jpg",
+    "ts_seconds": 1425,
+    "is_claude": true,
+    "prompt": "DOWLOAD NO",
+    "conf": 0.8
+  },
+  {
+    "frame": "data/frames/frame_000301.jpg",
+    "ts_seconds": 1500,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000316.jpg",
+    "ts_seconds": 1575,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000331.jpg",
+    "ts_seconds": 1650,
+    "is_claude": true,
+    "prompt": "aprovo cria do zero",
+    "conf": 0.92
+  },
+  {
+    "frame": "data/frames/frame_000346.jpg",
+    "ts_seconds": 1725,
+    "is_claude": true,
+    "prompt": "aprovo cria do zero",
+    "conf": 0.92
+  },
+  {
+    "frame": "data/frames/frame_000361.jpg",
+    "ts_seconds": 1800,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.85
+  },
+  {
+    "frame": "data/frames/frame_000376.jpg",
+    "ts_seconds": 1875,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.85
+  },
+  {
+    "frame": "data/frames/frame_000391.jpg",
+    "ts_seconds": 1950,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000406.jpg",
+    "ts_seconds": 2025,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000421.jpg",
+    "ts_seconds": 2100,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000436.jpg",
+    "ts_seconds": 2175,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000451.jpg",
+    "ts_seconds": 2250,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000466.jpg",
+    "ts_seconds": 2325,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000481.jpg",
+    "ts_seconds": 2400,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000496.jpg",
+    "ts_seconds": 2475,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000511.jpg",
+    "ts_seconds": 2550,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000526.jpg",
+    "ts_seconds": 2625,
+    "is_claude": true,
+    "prompt": "LOBY CRIA O LOBY AGOIRA FO",
+    "conf": 0.8
+  },
+  {
+    "frame": "data/frames/frame_000541.jpg",
+    "ts_seconds": 2700,
+    "is_claude": true,
+    "prompt": "LOBBY B E PISTA B",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000556.jpg",
+    "ts_seconds": 2775,
+    "is_claude": true,
+    "prompt": "LOBBY B E PISTA B",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000571.jpg",
+    "ts_seconds": 2850,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000586.jpg",
+    "ts_seconds": 2925,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000601.jpg",
+    "ts_seconds": 3000,
+    "is_claude": true,
+    "prompt": "MANO QUERO ESSA TESTURA ESSA ILUMINACAO PRESTA ATENCAO CLAUDE PORRA !!! OIOOOOOO OIA OQ TO TE PEDINOOO PRA VC NAO FAZER MER",
+    "conf": 0.82
+  },
+  {
+    "frame": "data/frames/frame_000616.jpg",
+    "ts_seconds": 3075,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.7
+  },
+  {
+    "frame": "data/frames/frame_000631.jpg",
+    "ts_seconds": 3150,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000646.jpg",
+    "ts_seconds": 3225,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.8
+  },
+  {
+    "frame": "data/frames/frame_000661.jpg",
+    "ts_seconds": 3300,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000676.jpg",
+    "ts_seconds": 3375,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000691.jpg",
+    "ts_seconds": 3450,
+    "is_claude": true,
+    "prompt": "mano, qual as novidades ai tu ja fez o carro viper novo?",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000706.jpg",
+    "ts_seconds": 3525,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000721.jpg",
+    "ts_seconds": 3600,
+    "is_claude": true,
+    "prompt": "manda o plano quando ficar pronto",
+    "conf": 0.95
+  },
+  {
+    "frame": "data/frames/frame_000736.jpg",
+    "ts_seconds": 3675,
+    "is_claude": true,
+    "prompt": "manda o plano quando ficar pronto",
+    "conf": 0.95
+  },
+  {
+    "frame": "data/frames/frame_000751.jpg",
+    "ts_seconds": 3750,
+    "is_claude": true,
+    "prompt": "manda o plano quando ficar pronto",
+    "conf": 0.95
+  },
+  {
+    "frame": "data/frames/frame_000766.jpg",
+    "ts_seconds": 3825,
+    "is_claude": true,
+    "prompt": "manda o plano quando ficar pronto",
+    "conf": 0.95
+  },
+  {
+    "frame": "data/frames/frame_000781.jpg",
+    "ts_seconds": 3900,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000796.jpg",
+    "ts_seconds": 3975,
+    "is_claude": true,
+    "prompt": "E DE NOITE TAMBEM?",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000811.jpg",
+    "ts_seconds": 4050,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000826.jpg",
+    "ts_seconds": 4125,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000841.jpg",
+    "ts_seconds": 4200,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000856.jpg",
+    "ts_seconds": 4275,
+    "is_claude": true,
+    "prompt": "manda os prints quando sair porra",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000871.jpg",
+    "ts_seconds": 4350,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000886.jpg",
+    "ts_seconds": 4425,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000901.jpg",
+    "ts_seconds": 4500,
+    "is_claude": true,
+    "prompt": "manda os prints quando sair porra",
+    "conf": 0.92
+  },
+  {
+    "frame": "data/frames/frame_000916.jpg",
+    "ts_seconds": 4575,
+    "is_claude": true,
+    "prompt": "manda os prints quando sair porra",
+    "conf": 0.92
+  },
+  {
+    "frame": "data/frames/frame_000931.jpg",
+    "ts_seconds": 4650,
+    "is_claude": true,
+    "prompt": "manda os prints quando sair porra",
+    "conf": 0.92
+  },
+  {
+    "frame": "data/frames/frame_000946.jpg",
+    "ts_seconds": 4725,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_000961.jpg",
+    "ts_seconds": 4800,
+    "is_claude": true,
+    "prompt": "manda as imagens assim que sair",
+    "conf": 0.92
+  },
+  {
+    "frame": "data/frames/frame_000976.jpg",
+    "ts_seconds": 4875,
+    "is_claude": true,
+    "prompt": "manda as imagens assim que sair",
+    "conf": 0.92
+  },
+  {
+    "frame": "data/frames/frame_000991.jpg",
+    "ts_seconds": 4950,
+    "is_claude": true,
+    "prompt": "manda as imagens assim que sair",
+    "conf": 0.92
+  },
+  {
+    "frame": "data/frames/frame_001006.jpg",
+    "ts_seconds": 5025,
+    "is_claude": true,
+    "prompt": "CARA GO",
+    "conf": 0.75
+  },
+  {
+    "frame": "data/frames/frame_001021.jpg",
+    "ts_seconds": 5100,
+    "is_claude": true,
+    "prompt": "manda os carros 2 a 5 novos",
+    "conf": 0.96
+  },
+  {
+    "frame": "data/frames/frame_001036.jpg",
+    "ts_seconds": 5175,
+    "is_claude": true,
+    "prompt": "manda os carros 2 a 5 novos",
+    "conf": 0.96
+  },
+  {
+    "frame": "data/frames/frame_001051.jpg",
+    "ts_seconds": 5250,
+    "is_claude": true,
+    "prompt": "manda os carros 2 a 5 novos",
+    "conf": 0.96
+  },
+  {
+    "frame": "data/frames/frame_001066.jpg",
+    "ts_seconds": 5325,
+    "is_claude": true,
+    "prompt": "manda os carros 2 a 5 novos",
+    "conf": 0.96
+  },
+  {
+    "frame": "data/frames/frame_001081.jpg",
+    "ts_seconds": 5400,
+    "is_claude": true,
+    "prompt": "manda os carros 2 a 5 novos",
+    "conf": 0.96
+  },
+  {
+    "frame": "data/frames/frame_001096.jpg",
+    "ts_seconds": 5475,
+    "is_claude": true,
+    "prompt": "manda os carros 2 a 5 novos",
+    "conf": 0.96
+  },
+  {
+    "frame": "data/frames/frame_001111.jpg",
+    "ts_seconds": 5550,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001126.jpg",
+    "ts_seconds": 5625,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001141.jpg",
+    "ts_seconds": 5700,
+    "is_claude": true,
+    "prompt": "manda os prints da rua neon",
+    "conf": 0.92
+  },
+  {
+    "frame": "data/frames/frame_001156.jpg",
+    "ts_seconds": 5775,
+    "is_claude": true,
+    "prompt": "manda print quando sair",
+    "conf": 0.92
+  },
+  {
+    "frame": "data/frames/frame_001171.jpg",
+    "ts_seconds": 5850,
+    "is_claude": true,
+    "prompt": "manda print quando sair",
+    "conf": 0.92
+  },
+  {
+    "frame": "data/frames/frame_001186.jpg",
+    "ts_seconds": 5925,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001201.jpg",
+    "ts_seconds": 6000,
+    "is_claude": true,
+    "prompt": "manda print quando sair",
+    "conf": 0.92
+  },
+  {
+    "frame": "data/frames/frame_001216.jpg",
+    "ts_seconds": 6075,
+    "is_claude": true,
+    "prompt": "manda print quando sair",
+    "conf": 0.92
+  },
+  {
+    "frame": "data/frames/frame_001231.jpg",
+    "ts_seconds": 6150,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.8
+  },
+  {
+    "frame": "data/frames/frame_001246.jpg",
+    "ts_seconds": 6225,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.7
+  },
+  {
+    "frame": "data/frames/frame_001261.jpg",
+    "ts_seconds": 6300,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.8
+  },
+  {
+    "frame": "data/frames/frame_001276.jpg",
+    "ts_seconds": 6375,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001291.jpg",
+    "ts_seconds": 6450,
+    "is_claude": true,
+    "prompt": "e ai mostra alguma coisa",
+    "conf": 0.85
+  },
+  {
+    "frame": "data/frames/frame_001306.jpg",
+    "ts_seconds": 6525,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001321.jpg",
+    "ts_seconds": 6600,
+    "is_claude": true,
+    "prompt": "manda as fotos da vitrine",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001336.jpg",
+    "ts_seconds": 6675,
+    "is_claude": true,
+    "prompt": "manda as fotos da vitrine",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001351.jpg",
+    "ts_seconds": 6750,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001366.jpg",
+    "ts_seconds": 6825,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001381.jpg",
+    "ts_seconds": 6900,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001396.jpg",
+    "ts_seconds": 6975,
+    "is_claude": true,
+    "prompt": "cade o viper na rua porra",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001411.jpg",
+    "ts_seconds": 7050,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001426.jpg",
+    "ts_seconds": 7125,
+    "is_claude": true,
+    "prompt": "mostra ai alguma coisa",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_001441.jpg",
+    "ts_seconds": 7200,
+    "is_claude": true,
+    "prompt": "e ai ja ta pronto o jogavel?",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001456.jpg",
+    "ts_seconds": 7275,
+    "is_claude": true,
+    "prompt": "e ai ja ta pronto o jogavel?",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001471.jpg",
+    "ts_seconds": 7350,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001486.jpg",
+    "ts_seconds": 7425,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001501.jpg",
+    "ts_seconds": 7500,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001516.jpg",
+    "ts_seconds": 7575,
+    "is_claude": true,
+    "prompt": "aprovo a árvore, e o jogo cadê?",
+    "conf": 0.93
+  },
+  {
+    "frame": "data/frames/frame_001531.jpg",
+    "ts_seconds": 7650,
+    "is_claude": true,
+    "prompt": "aprovo a árvore, e o jogo cadê?",
+    "conf": 0.93
+  },
+  {
+    "frame": "data/frames/frame_001546.jpg",
+    "ts_seconds": 7725,
+    "is_claude": true,
+    "prompt": "manda as fotos da vitrine",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001561.jpg",
+    "ts_seconds": 7800,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001576.jpg",
+    "ts_seconds": 7875,
+    "is_claude": true,
+    "prompt": "ta meio feio viado isso parece jogo de need for speed? taqu",
+    "conf": 0.8
+  },
+  {
+    "frame": "data/frames/frame_001591.jpg",
+    "ts_seconds": 7950,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001606.jpg",
+    "ts_seconds": 8025,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001621.jpg",
+    "ts_seconds": 8100,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001636.jpg",
+    "ts_seconds": 8175,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001651.jpg",
+    "ts_seconds": 8250,
+    "is_claude": true,
+    "prompt": "e ai abriu o jogo?",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_001666.jpg",
+    "ts_seconds": 8325,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001681.jpg",
+    "ts_seconds": 8400,
+    "is_claude": true,
+    "prompt": "MANO VAI SE FUDER 2",
+    "conf": 0.85
+  },
+  {
+    "frame": "data/frames/frame_001696.jpg",
+    "ts_seconds": 8475,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001711.jpg",
+    "ts_seconds": 8550,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001726.jpg",
+    "ts_seconds": 8625,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001741.jpg",
+    "ts_seconds": 8700,
+    "is_claude": true,
+    "prompt": "e ai ja ta pronto o jogavel?",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001756.jpg",
+    "ts_seconds": 8775,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001771.jpg",
+    "ts_seconds": 8850,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001786.jpg",
+    "ts_seconds": 8925,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001801.jpg",
+    "ts_seconds": 9000,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001816.jpg",
+    "ts_seconds": 9075,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001831.jpg",
+    "ts_seconds": 9150,
+    "is_claude": true,
+    "prompt": "mostra a lista dos pacotes pra comprar",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_001846.jpg",
+    "ts_seconds": 9225,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.8
+  },
+  {
+    "frame": "data/frames/frame_001861.jpg",
+    "ts_seconds": 9300,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001876.jpg",
+    "ts_seconds": 9375,
+    "is_claude": true,
+    "prompt": "cade o viper na rua porra",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001891.jpg",
+    "ts_seconds": 9450,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001906.jpg",
+    "ts_seconds": 9525,
+    "is_claude": true,
+    "prompt": "e ai mostra alguma coisa",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_001921.jpg",
+    "ts_seconds": 9600,
+    "is_claude": true,
+    "prompt": "e ai cade a foto nova",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_001936.jpg",
+    "ts_seconds": 9675,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001951.jpg",
+    "ts_seconds": 9750,
+    "is_claude": true,
+    "prompt": "mostra ai alguma coisa",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_001966.jpg",
+    "ts_seconds": 9825,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_001981.jpg",
+    "ts_seconds": 9900,
+    "is_claude": true,
+    "prompt": "aprovo a árvore, e o jogo cadê?",
+    "conf": 0.93
+  },
+  {
+    "frame": "data/frames/frame_001996.jpg",
+    "ts_seconds": 9975,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002011.jpg",
+    "ts_seconds": 10050,
+    "is_claude": true,
+    "prompt": "manda as fotos da vitrine",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002026.jpg",
+    "ts_seconds": 10125,
+    "is_claude": true,
+    "prompt": "ta meio feio viado isso parece jogo de need for speed? taqu",
+    "conf": 0.8
+  },
+  {
+    "frame": "data/frames/frame_002041.jpg",
+    "ts_seconds": 10200,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002056.jpg",
+    "ts_seconds": 10275,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002071.jpg",
+    "ts_seconds": 10350,
+    "is_claude": true,
+    "prompt": "e ai abriu o jogo?",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002086.jpg",
+    "ts_seconds": 10425,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002101.jpg",
+    "ts_seconds": 10500,
+    "is_claude": true,
+    "prompt": "e ai mostra alguma coisa",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002116.jpg",
+    "ts_seconds": 10575,
+    "is_claude": true,
+    "prompt": "e ai cade a foto nova",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002131.jpg",
+    "ts_seconds": 10650,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002146.jpg",
+    "ts_seconds": 10725,
+    "is_claude": true,
+    "prompt": "mostra a lista dos pacotes pra comprar",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002161.jpg",
+    "ts_seconds": 10800,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002176.jpg",
+    "ts_seconds": 10875,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002191.jpg",
+    "ts_seconds": 10950,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002206.jpg",
+    "ts_seconds": 11025,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002221.jpg",
+    "ts_seconds": 11100,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002236.jpg",
+    "ts_seconds": 11175,
+    "is_claude": true,
+    "prompt": "e ai mostra alguma coisa nova",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002251.jpg",
+    "ts_seconds": 11250,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002266.jpg",
+    "ts_seconds": 11325,
+    "is_claude": true,
+    "prompt": "mostra ai alguma coisa",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002281.jpg",
+    "ts_seconds": 11400,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002296.jpg",
+    "ts_seconds": 11475,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002311.jpg",
+    "ts_seconds": 11550,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002326.jpg",
+    "ts_seconds": 11625,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002341.jpg",
+    "ts_seconds": 11700,
+    "is_claude": true,
+    "prompt": "mostra a loja 2 com o carro nítido",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002356.jpg",
+    "ts_seconds": 11775,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002371.jpg",
+    "ts_seconds": 11850,
+    "is_claude": true,
+    "prompt": "mostra a rodada 2 com o carro nítido",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002386.jpg",
+    "ts_seconds": 11925,
+    "is_claude": true,
+    "prompt": "mostra a rodada 2 com o carro nítido",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002401.jpg",
+    "ts_seconds": 12000,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002416.jpg",
+    "ts_seconds": 12075,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002431.jpg",
+    "ts_seconds": 12150,
+    "is_claude": true,
+    "prompt": "e ai mostra alguma coisa",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002446.jpg",
+    "ts_seconds": 12225,
+    "is_claude": true,
+    "prompt": "e ai mostra alguma coisa nova",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002461.jpg",
+    "ts_seconds": 12300,
+    "is_claude": true,
+    "prompt": "mostra a rodada 2 com o carro nítido",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002476.jpg",
+    "ts_seconds": 12375,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002491.jpg",
+    "ts_seconds": 12450,
+    "is_claude": true,
+    "prompt": "e ai mostra alguma coisa",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002506.jpg",
+    "ts_seconds": 12525,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002521.jpg",
+    "ts_seconds": 12600,
+    "is_claude": true,
+    "prompt": "e ai mostra alguma coisa",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002536.jpg",
+    "ts_seconds": 12675,
+    "is_claude": true,
+    "prompt": "e ai mostra alguma coisa",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002551.jpg",
+    "ts_seconds": 12750,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002566.jpg",
+    "ts_seconds": 12825,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002581.jpg",
+    "ts_seconds": 12900,
+    "is_claude": true,
+    "prompt": "e ai mostra alguma coisa",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002596.jpg",
+    "ts_seconds": 12975,
+    "is_claude": true,
+    "prompt": "e ai mostra alguma coisa",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002611.jpg",
+    "ts_seconds": 13050,
+    "is_claude": true,
+    "prompt": "mostra a loja 2 com o carro nítido",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002626.jpg",
+    "ts_seconds": 13125,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002641.jpg",
+    "ts_seconds": 13200,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002656.jpg",
+    "ts_seconds": 13275,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002671.jpg",
+    "ts_seconds": 13350,
+    "is_claude": true,
+    "prompt": "e ai mostra alguma coisa",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002686.jpg",
+    "ts_seconds": 13425,
+    "is_claude": true,
+    "prompt": "mostra ai alguma coisa",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002701.jpg",
+    "ts_seconds": 13500,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.7
+  },
+  {
+    "frame": "data/frames/frame_002716.jpg",
+    "ts_seconds": 13575,
+    "is_claude": true,
+    "prompt": "e ai mostra alguma coisa nova",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002731.jpg",
+    "ts_seconds": 13650,
+    "is_claude": true,
+    "prompt": "e ai mostra alguma coisa nova",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002746.jpg",
+    "ts_seconds": 13725,
+    "is_claude": true,
+    "prompt": "mostra a lista dos pacotes pra comprar",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002761.jpg",
+    "ts_seconds": 13800,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002776.jpg",
+    "ts_seconds": 13875,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002791.jpg",
+    "ts_seconds": 13950,
+    "is_claude": true,
+    "prompt": "mostra a lista dos pacotes pra comprar",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002806.jpg",
+    "ts_seconds": 14025,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.8
+  },
+  {
+    "frame": "data/frames/frame_002821.jpg",
+    "ts_seconds": 14100,
+    "is_claude": true,
+    "prompt": "mostra a rodada 2 com o carro nitido",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002836.jpg",
+    "ts_seconds": 14175,
+    "is_claude": true,
+    "prompt": "mostra a rodada 2 com o carro nitido",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002851.jpg",
+    "ts_seconds": 14250,
+    "is_claude": true,
+    "prompt": "mostra a rodada 2 com o carro nitido",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002866.jpg",
+    "ts_seconds": 14325,
+    "is_claude": true,
+    "prompt": "e ai cade a foto nova",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002881.jpg",
+    "ts_seconds": 14400,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.7
+  },
+  {
+    "frame": "data/frames/frame_002896.jpg",
+    "ts_seconds": 14475,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.7
+  },
+  {
+    "frame": "data/frames/frame_002911.jpg",
+    "ts_seconds": 14550,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.8
+  },
+  {
+    "frame": "data/frames/frame_002926.jpg",
+    "ts_seconds": 14625,
+    "is_claude": true,
+    "prompt": "mostra a rodada 2 da rodovia",
+    "conf": 0.85
+  },
+  {
+    "frame": "data/frames/frame_002941.jpg",
+    "ts_seconds": 14700,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.8
+  },
+  {
+    "frame": "data/frames/frame_002956.jpg",
+    "ts_seconds": 14775,
+    "is_claude": true,
+    "prompt": "mostra a lista dos pacotes",
+    "conf": 0.88
+  },
+  {
+    "frame": "data/frames/frame_002971.jpg",
+    "ts_seconds": 14850,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_002986.jpg",
+    "ts_seconds": 14925,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_003001.jpg",
+    "ts_seconds": 15000,
+    "is_claude": false,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_003016.jpg",
+    "ts_seconds": 15075,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.8
+  },
+  {
+    "frame": "data/frames/frame_003031.jpg",
+    "ts_seconds": 15150,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.8
+  },
+  {
+    "frame": "data/frames/frame_003046.jpg",
+    "ts_seconds": 15225,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.8
+  },
+  {
+    "frame": "data/frames/frame_003061.jpg",
+    "ts_seconds": 15300,
+    "is_claude": true,
+    "prompt": "Explica para mim o que você quer comprar, sendo que a gente ja tem comprado ou você não está achando no download?",
+    "conf": 0.82
+  },
+  {
+    "frame": "data/frames/frame_003076.jpg",
+    "ts_seconds": 15375,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_003091.jpg",
+    "ts_seconds": 15450,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_003106.jpg",
+    "ts_seconds": 15525,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.8
+  },
+  {
+    "frame": "data/frames/frame_003121.jpg",
+    "ts_seconds": 15600,
+    "is_claude": true,
+    "prompt": "pode baixar",
+    "conf": 0.9
+  },
+  {
+    "frame": "data/frames/frame_003136.jpg",
+    "ts_seconds": 15675,
+    "is_claude": true,
+    "prompt": "",
+    "conf": 0.8
+  }
+]
