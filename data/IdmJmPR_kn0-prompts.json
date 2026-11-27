@@ -1,0 +1,121 @@
+[
+  {
+    "text": "ai cade a mascara",
+    "status": "ok",
+    "ts_seconds": 3071,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-bv7_efrp/frame_000001.jpg",
+    "frame_index": 0,
+    "ts_end_seconds": 3080,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-bv7_efrp/frame_000010.jpg",
+    "frame_count": 10,
+    "group_ids": [
+      "img_000001",
+      "img_000002",
+      "img_000003",
+      "img_000004"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 3071.0
+  },
+  {
+    "text": "ai cade a mascara",
+    "status": "ok",
+    "ts_seconds": 3089,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-bv7_efrp/frame_000019.jpg",
+    "frame_index": 18,
+    "ts_end_seconds": 3103,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-bv7_efrp/frame_000033.jpg",
+    "frame_count": 15,
+    "group_ids": [
+      "img_000009",
+      "img_000010",
+      "img_000011",
+      "img_000012"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 3071.0
+  },
+  {
+    "text": "mano m",
+    "status": "partial",
+    "ts_seconds": 3104,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-bv7_efrp/frame_000034.jpg",
+    "frame_index": 33,
+    "ts_end_seconds": 3106,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-bv7_efrp/frame_000036.jpg",
+    "frame_count": 3,
+    "group_ids": [
+      "img_000013"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 3071.0
+  },
+  {
+    "text": "mano prazo oos",
+    "status": "partial",
+    "ts_seconds": 3107,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-bv7_efrp/frame_000037.jpg",
+    "frame_index": 36,
+    "ts_end_seconds": 3107,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-bv7_efrp/frame_000037.jpg",
+    "frame_count": 1,
+    "group_ids": [
+      "img_000014"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 3071.0
+  },
+  {
+    "text": "mano prazo oos a gal",
+    "status": "partial",
+    "ts_seconds": 3108,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-bv7_efrp/frame_000038.jpg",
+    "frame_index": 37,
+    "ts_end_seconds": 3108,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-bv7_efrp/frame_000038.jpg",
+    "frame_count": 1,
+    "group_ids": [
+      "img_000015"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 3071.0
+  },
+  {
+    "text": "mano prazo oos a galera quer v",
+    "status": "partial",
+    "ts_seconds": 3109,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-bv7_efrp/frame_000039.jpg",
+    "frame_index": 38,
+    "ts_end_seconds": 3109,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-bv7_efrp/frame_000039.jpg",
+    "frame_count": 1,
+    "group_ids": [
+      "img_000016"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 3071.0
+  },
+  {
+    "text": "mano prazooooss a galera quer ver jogo porra!!!",
+    "status": "ok",
+    "ts_seconds": 3112,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-bv7_efrp/frame_000042.jpg",
+    "frame_index": 41,
+    "ts_end_seconds": 3130,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-bv7_efrp/frame_000060.jpg",
+    "frame_count": 19,
+    "group_ids": [
+      "img_000019"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 3071.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-bv7_efrp/_vision_bubbles/img_000019.jpg"
+  }
+]

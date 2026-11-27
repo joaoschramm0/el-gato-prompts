@@ -1,0 +1,19 @@
+[
+  {
+    "text": "e o jogo crashou denovo MOONITE",
+    "status": "ok",
+    "ts_seconds": 3590,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-pwox8u9y/frame_000050.jpg",
+    "frame_index": 49,
+    "ts_end_seconds": 3598,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-pwox8u9y/frame_000058.jpg",
+    "frame_count": 9,
+    "group_ids": [
+      "img_000012"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 3541.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-pwox8u9y/_vision_bubbles/img_000012.jpg"
+  }
+]

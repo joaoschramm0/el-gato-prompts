@@ -1,0 +1,32 @@
+[
+  {
+    "text": "mano primeiro limpa direito entao essa bucetonaal viu e dps vc ajeita o pé seu demonioooo!!!",
+    "status": "ok",
+    "ts_seconds": 7785,
+    "frame": "/tmp/el-gato-run.CaT1iyDL/live-frames/run-s6pma25w/frame_000001.jpg",
+    "frame_index": 0,
+    "ts_end_seconds": 7844,
+    "frame_end": "/tmp/el-gato-run.CaT1iyDL/live-frames/run-s6pma25w/frame_000060.jpg",
+    "frame_count": 60,
+    "group_ids": [
+      "img_000001",
+      "img_000002",
+      "img_000003",
+      "img_000004",
+      "img_000005",
+      "img_000006",
+      "img_000007",
+      "img_000008",
+      "img_000009",
+      "img_000010",
+      "img_000011",
+      "img_000012",
+      "img_000013",
+      "img_000014",
+      "img_000015"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1.0,
+    "start_seconds": 7785
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "text": "A Torre dos Guardas abriu! 4 guardas e armas raras no alto da cidade",
+    "status": "ok",
+    "ts_seconds": 3859,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-tu7ar76e/frame_000020.jpg",
+    "frame_index": 19,
+    "ts_end_seconds": 3859,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-tu7ar76e/frame_000020.jpg",
+    "frame_count": 1,
+    "group_ids": [
+      "img_000013"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 3840.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-tu7ar76e/_vision_bubbles/img_000013.jpg"
+  }
+]

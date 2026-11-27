@@ -3,6 +3,7 @@ from __future__ import annotations
 import json
 import pathlib
 import logging
+import shutil
 from typing import Optional
 
 log = logging.getLogger(__name__)
@@ -118,6 +119,66 @@ def download(
             # fallback: escreve info manualmente
             info_path.write_text(json.dumps(info, ensure_ascii=False, indent=2), encoding="utf-8")
         return {"video_path": str(video_path) if video_path else None, "info_path": str(info_path), "info": info}
+
+
+def download_section(
+    url: str,
+    out_dir: str = "data",
+    start_seconds: float = 0.0,
+    duration: Optional[float] = None,
+) -> dict:
+    """Baixa apenas a seção [start_seconds, start_seconds+duration) via yt-dlp.
+
+    Usado pelo modo visão para testar uma URL sem baixar a live inteira. O
+    arquivo retornado começa no offset solicitado; quem extrai frames deve usar
+    seek 0 e somar start_seconds aos timestamps. Requer ffmpeg (yt-dlp usa para
+    cortar a seção).
+    """
+    import yt_dlp
+
+    if duration is None or duration <= 0:
+        raise ValueError("download_section requer duration > 0")
+    if start_seconds < 0:
+        raise ValueError("start_seconds deve ser >= 0")
+
+    pathlib.Path(out_dir).mkdir(parents=True, exist_ok=True)
+    end_seconds = float(start_seconds) + float(duration)
+    section_name = f"section_{start_seconds:g}_{end_seconds:g}"
+    outtmpl = str(pathlib.Path(out_dir) / f"%(id)s.{section_name}.%(ext)s")
+
+    opts = _ydl_opts(outtmpl=outtmpl)
+    opts["format"] = "bv[height<=720]/b[height<=720]/bv/b"
+    if shutil.which("node"):
+        opts["js_runtimes"] = {"deno": {}, "node": {}}
+    opts["external_downloader_args"] = {"ffmpeg_i": ["-loglevel", "error"]}
+    opts["overwrites"] = True
+    opts["download_ranges"] = lambda info, ydl: [
+        {"start_time": float(start_seconds), "end_time": end_seconds}
+    ]
+    opts["force_keyframes_at_cuts"] = True
+
+    with yt_dlp.YoutubeDL(opts) as ydl:
+        info = ydl.extract_info(url, download=True)
+        if "entries" in info:
+            info = next(iter(info["entries"]))
+        vid_id = info.get("id", "video")
+        base = pathlib.Path(out_dir) / f"{vid_id}.{section_name}"
+        candidates = [
+            c for c in base.parent.glob(f"{base.name}.*")
+            if c.suffix.lower() in {".mp4", ".mkv", ".webm", ".mov", ".flv", ".ts"}
+        ]
+        video_path = candidates[0] if candidates else None
+        info_path = base.with_name(f"{base.name}.info.json")
+        if not info_path.exists():
+            info_path.write_text(json.dumps(info, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    return {
+        "video_path": str(video_path) if video_path else None,
+        "info_path": str(info_path),
+        "info": info,
+        "clip_start_seconds": float(start_seconds),
+        "clip_duration": float(duration),
+    }
 
 
 if __name__ == "__main__":

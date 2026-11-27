@@ -3,210 +3,373 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>El Gato — Termômetro de Similaridade</title>
+<meta name="color-scheme" content="dark" />
+<title>El Gato.exe — Medidor de Prompt</title>
 <style>
-*{box-sizing:border-box;margin:0;padding:0}
-:root{
-  --bg:#0e0e10;
-  --surface:#1a1a1e;
-  --surface2:#242428;
-  --border:#2e2e33;
-  --text:#ececec;
-  --muted:#9a9aa0;
-  --accent:#d97706;
-  --accent2:#f59e0b;
-  --radius:16px;
-  --radius-sm:12px;
-}
-html,body{height:100%}
-body{
-  font-family: ui-sans-system, -apple-system, BlinkMacSystemFont, "Inter", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  background: var(--bg);
-  color: var(--text);
-  -webkit-font-smoothing:antialiased;
-}
-.wrap{
-  max-width:720px;
-  margin:0 auto;
-  padding:32px 20px 48px;
-}
-header{
-  display:flex;align-items:center;gap:12px;
-  margin-bottom:28px;
-}
-.logo{
-  width:36px;height:36px;border-radius:10px;
-  background: linear-gradient(135deg,#f59e0b,#d97706);
-  display:grid;place-items:center;
-  font-size:18px;
-}
-header h1{font-size:18px;font-weight:600;letter-spacing:-0.02em}
-header h1 span{font-weight:400;color:var(--muted);font-size:13px;margin-left:8px}
-.badge{
-  margin-left:auto;
-  font-size:11px;letter-spacing:0.08em;text-transform:uppercase;
-  color:#a1a1aa;border:1px solid var(--border);
-  padding:6px 10px;border-radius:999px;background:var(--surface);
-}
-.card{
-  background:var(--surface);
-  border:1px solid var(--border);
-  border-radius:var(--radius);
-  padding:20px;
-}
-.card + .card{margin-top:16px}
-.label{
-  font-size:11px;letter-spacing:0.08em;text-transform:uppercase;
-  color:var(--muted);margin-bottom:10px;display:block;
-}
-textarea{
-  width:100%;min-height:120px;
-  background:var(--surface2);
-  border:1px solid var(--border);
-  border-radius:var(--radius-sm);
-  color:var(--text);
-  padding:14px 14px;
-  font-size:14px;line-height:1.5;
-  resize:vertical;
-  outline:none;
-  font-family:inherit;
-}
-textarea::placeholder{color:#6b7280}
-textarea:focus{border-color:#3f3f46;box-shadow:0 0 0 3px rgba(245,158,11,0.12)}
-.row{
-  display:flex;gap:10px;align-items:center;margin-top:14px;flex-wrap:wrap;
-}
-.btn-primary{
-  appearance:none;border:0;cursor:pointer;
-  background:linear-gradient(135deg,#f59e0b,#d97706);
-  color:#111;font-weight:600;font-size:14px;
-  padding:11px 18px;border-radius:999px;
-  display:inline-flex;align-items:center;gap:8px;
-  transition:filter .15s,transform .08s;
-}
-.btn-primary:hover{filter:brightness(1.07)}
-.btn-primary:active{transform:scale(0.98)}
-.btn-ghost{
-  appearance:none;cursor:pointer;
-  background:transparent;border:1px solid var(--border);
-  color:var(--muted);font-size:13px;
-  padding:10px 14px;border-radius:999px;
-}
-.btn-ghost:hover{color:var(--text);border-color:#3f3f46}
-.hint{font-size:12px;color:var(--muted);margin-left:auto}
-.gauge-wrap{
-  display:flex;flex-direction:column;align-items:center;
-  padding:8px 0 4px;
-}
-.gauge-num{
-  font-size:42px;font-weight:700;letter-spacing:-0.04em;line-height:1;
-}
-.gauge-label{font-size:12px;color:var(--muted);margin-top:4px;letter-spacing:0.04em}
-.gauge-sub{font-size:12px;color:var(--muted);margin-top:10px;text-align:center;min-height:18px}
-.divider{height:1px;background:var(--border);margin:18px 0}
-.list-title{font-size:13px;font-weight:600;margin-bottom:10px}
-.top3{display:flex;flex-direction:column;gap:8px}
-.top-item{
-  display:flex;gap:12px;align-items:flex-start;
-  background:var(--surface2);border:1px solid var(--border);
-  border-radius:12px;padding:12px 14px;
-}
-.top-rank{
-  flex:0 0 28px;height:28px;border-radius:999px;
-  display:grid;place-items:center;font-size:12px;font-weight:700;
-  background:#2a2a2e;color:var(--muted);border:1px solid var(--border);
-}
-.top-item:first-child .top-rank{background:rgba(245,158,11,0.15);color:#f59e0b;border-color:rgba(245,158,11,0.3)}
-.top-text{font-size:13px;line-height:1.45;color:#d4d4d8;flex:1}
-.top-score{font-size:12px;font-weight:600;color:var(--muted);white-space:nowrap;margin-top:1px}
-.share-card{
-  background: linear-gradient(135deg, #1e1a12 0%, #1a1a1e 60%);
-  border:1px solid rgba(245,158,11,0.18);
-}
-.share-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:12px}
-.share-head strong{font-size:13px}
-.share-body{
-  background:rgba(0,0,0,0.25);border:1px solid var(--border);
-  border-radius:12px;padding:12px 14px;
-  font-size:13px;line-height:1.5;color:#d4d4d8;white-space:pre-wrap;word-break:break-word;
-  min-height:44px;
-}
-.share-actions{display:flex;gap:8px;margin-top:12px}
-.footer{margin-top:20px;text-align:center;font-size:11px;color:#52525b;letter-spacing:0.04em}
-a{color:#f59e0b;text-decoration:none}
-a:hover{text-decoration:underline}
+  @font-face{
+    font-family:Inter;src:url("fonts/inter-latin.woff2") format("woff2");
+    font-style:normal;font-weight:400 900;font-display:swap;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  :root{
+    --bg:#100f0c;
+    --panel:#181713;
+    --panel-deep:#12110e;
+    --line:#38362e;
+    --line-strong:#575244;
+    --text:#eee8dc;
+    --muted:#aaa393;
+    --faint:#9a9180;
+    --orange:#f2a65a;
+    --orange-light:#ffc47f;
+    --green:#b8d94f;
+    --score-color:#756f63;
+    --panel-radius:22px;
+    --control-radius:12px;
+    --small-radius:8px;
+  }
+  html{min-height:100%;background:var(--bg);overflow-x:clip}
+  body{
+    min-height:100%;
+    background:radial-gradient(ellipse at 22% 0%,#292018 0,transparent 52rem),var(--bg);
+    overflow-x:clip;
+    color:var(--text);
+    font-family:Inter,system-ui,sans-serif;
+    line-height:1.55;
+    -webkit-font-smoothing:antialiased;
+  }
+  button,textarea{font:inherit}
+  button{touch-action:manipulation}
+  .skip-link{
+    position:fixed;top:8px;left:8px;z-index:10;
+    padding:10px 14px;border-radius:var(--small-radius);background:var(--orange);color:#171109;
+    transform:translateY(-160%);
+  }
+  .skip-link:focus{transform:translateY(0)}
+  .shell{width:min(1120px,calc(100% - 48px));margin:0 auto;padding:26px 0 34px}
+  .collapse-scene.is-collapsing{overflow:clip}
+  .meltdown-overlay{
+    display:none;position:fixed;right:16px;bottom:16px;z-index:100;
+    width:min(260px,calc(100% - 32px));pointer-events:none;
+    --signal-color:var(--orange);--progress:0;
+  }
+  .meltdown-overlay[data-stage="reboot"]{--signal-color:var(--green)}
+  .signal-status{
+    padding:12px 14px;background:#14110ef5;
+    border:1px solid var(--signal-color);border-radius:var(--control-radius);
+    color:var(--text);box-shadow:0 14px 54px #0008;
+  }
+  .signal-caption{
+    display:block;margin-bottom:6px;color:var(--signal-color);
+    font-size:10px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;
+  }
+  #signalMessage{
+    display:block;font-size:15px;font-weight:800;line-height:1.2;
+  }
+  .signal-track{height:3px;margin-top:14px;background:#3d362b;border-radius:999px;overflow:hidden}
+  .signal-track::after{
+    content:"";display:block;height:100%;background:var(--signal-color);
+    transform:scaleX(var(--progress));transform-origin:left;
+  }
+  .topbar{
+    display:flex;align-items:center;gap:14px;
+    padding:0 0 18px;border-bottom:1px solid var(--line);
+  }
+  .brand-mark{
+    flex:0 0 auto;padding:7px 9px;background:#2a1e13;box-shadow:3px 3px 0 #0a0806;
+    border:1px solid var(--orange);border-radius:var(--small-radius);color:var(--orange);
+    font-weight:800;font-size:14px;letter-spacing:-2px;
+  }
+  .brand-name{font-size:13px;font-weight:800;letter-spacing:.12em}
+  .brand-build{margin-top:1px;color:var(--faint);font-size:10px;letter-spacing:.08em}
+  .live-status{
+    margin-left:auto;display:flex;align-items:center;gap:8px;
+    color:var(--muted);font-size:10px;letter-spacing:.1em;text-transform:uppercase;
+    white-space:nowrap;
+  }
+  .live-dot{width:7px;height:7px;border-radius:50%;background:var(--green);box-shadow:0 0 0 3px #293019}
+  .intro{
+    position:relative;padding:clamp(36px,6vw,72px) 0 clamp(30px,4vw,48px);
+    isolation:isolate;
+  }
+  .intro::before{
+    content:"";position:absolute;inset:0 0 0 42%;z-index:-1;
+    background:linear-gradient(#60452c55 1px,transparent 1px),linear-gradient(90deg,#60452c55 1px,transparent 1px);
+    background-size:24px 24px;
+    mask-image:radial-gradient(ellipse at 75% 52%,#000,transparent 72%);
+    pointer-events:none;
+  }
+  h1{
+    font-size:clamp(34px,7.6vw,88px);font-weight:850;
+    line-height:1.02;letter-spacing:-.055em;
+  }
+  .title-accent{color:var(--orange)}
+  .intro-copy{margin-top:16px;max-width:680px;color:var(--muted);font-size:14px}
+  .intro-copy strong{color:var(--text);font-weight:600}
+  .workspace{display:grid;grid-template-columns:minmax(0,1.08fr) minmax(0,.92fr);gap:18px}
+  .panel{
+    min-width:0;background:linear-gradient(145deg,#201e18,var(--panel) 68%);border:1px solid var(--line);
+    border-radius:var(--panel-radius);box-shadow:5px 5px 0 #090806;
+  }
+  .prompt-panel:focus-within{border-color:#725438}
+  .meter-panel{border-top-color:var(--score-color)}
+  .meter-panel .panel-heading{background:color-mix(in srgb,var(--score-color) 8%,#13120f)}
+  .claude-panel .panel-heading{border-left:2px solid var(--green)}
+  .panel-heading{
+    background:#13120f;
+    min-height:39px;padding:10px 14px;
+    display:flex;align-items:center;justify-content:space-between;gap:12px;
+    border-bottom:1px solid var(--line);
+    border-start-start-radius:calc(var(--panel-radius) - 1px);
+    border-start-end-radius:calc(var(--panel-radius) - 1px);
+    color:var(--faint);font-size:10px;font-weight:700;letter-spacing:.1em;text-transform:uppercase;
+  }
+  .panel-heading > :first-child{color:var(--orange)}
+  .prompt-panel{display:flex;flex-direction:column}
+  .prompt-body{padding:22px;display:flex;flex:1;flex-direction:column}
+  .prompt-label{display:block;margin-bottom:12px;font-size:15px;font-weight:700;line-height:1.45}
+  textarea{
+    display:block;width:100%;min-height:190px;flex:1;
+    resize:vertical;outline:none;
+    border:1px solid var(--line-strong);border-radius:var(--control-radius);
+    background:var(--panel-deep);color:var(--text);
+    caret-color:var(--orange);
+    padding:15px 16px;font-size:14px;line-height:1.65;
+  }
+  textarea::placeholder{color:#797264;opacity:1}
+  textarea:hover{border-color:#746c5b}
+  textarea:focus{border-color:var(--orange);box-shadow:inset 3px 0 0 var(--orange)}
+  textarea[aria-invalid="true"]{border-color:#ef7462}
+  .input-meta{
+    display:flex;justify-content:space-between;gap:14px;
+    margin-top:9px;color:var(--faint);font-size:10px;line-height:1.5;
+  }
+  #charCount{white-space:nowrap}
+  .actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-top:20px}
+  .btn{
+    min-height:42px;padding:10px 15px;
+    border:1px solid var(--line-strong);border-radius:var(--control-radius);
+    background:transparent;color:var(--text);
+    font-size:12px;font-weight:700;cursor:pointer;
+    transition:background-color .14s,color .14s,border-color .14s,transform .08s;
+  }
+  .btn:hover:not(:disabled){border-color:var(--orange);color:var(--orange-light)}
+  .btn:active:not(:disabled){transform:translate(2px,2px)}
+  .btn-primary{
+    border-color:var(--orange);background:var(--orange);color:#181008;
+    box-shadow:3px 3px 0 #68471f;
+  }
+  .btn-primary:hover:not(:disabled){background:var(--orange-light);color:#181008}
+  .btn:disabled{opacity:.42;cursor:not-allowed}
+  .shortcut{margin-left:auto;color:var(--faint);font-size:10px}
+  kbd{font:inherit;color:var(--muted)}
+  :focus-visible{outline:2px solid var(--orange-light);outline-offset:4px}
+  .meter-panel{display:flex;flex-direction:column}
+  .meter-body{display:flex;flex:1;flex-direction:column;padding:22px}
+  .score-line{display:flex;align-items:flex-start;color:var(--score-color)}
+  #scoreNum{
+    font-size:clamp(68px,9vw,100px);font-weight:850;line-height:.9;letter-spacing:-.055em;
+    font-variant-numeric:tabular-nums;
+  }
+  .percent{margin:4px 0 0 5px;font-size:22px;font-weight:800}
+  #scoreLabel{margin-top:15px;color:var(--score-color);font-size:14px;line-height:1.4;letter-spacing:.06em}
+  #scoreSub{margin-top:7px;min-height:44px;color:var(--muted);font-size:12px}
+  .thermometer{margin-top:auto;padding-top:25px}
+  .thermo-readout{
+    display:flex;justify-content:space-between;gap:10px;margin-bottom:8px;
+    color:var(--faint);font-size:9px;letter-spacing:.08em;text-transform:uppercase;
+  }
+  .gauge-bars{display:grid;grid-template-columns:repeat(24,minmax(0,1fr));gap:4px;height:35px}
+  .gauge-bars span{display:block;background:#302e27;border:1px solid #3b382f;border-radius:4px;transform:skewX(-8deg)}
+  .gauge-bars span.is-on{background:var(--score-color);border-color:var(--score-color)}
+  .gauge-bars span,.gauge-bars span.is-on{
+    background-image:repeating-linear-gradient(0deg,#0002 0 1px,transparent 1px 4px);
+  }
+  .gauge-bars span.is-current{box-shadow:0 0 0 2px var(--panel),0 0 0 3px var(--score-color)}
+  .gauge-ticks{display:flex;justify-content:space-between;gap:6px;margin-top:10px;color:var(--faint);font-size:9px}
+  .gauge-ticks span:nth-child(2){text-align:center}
+  .gauge-ticks span:last-child{text-align:right}
+  .score-details{
+    display:flex;justify-content:space-between;gap:8px 16px;flex-wrap:wrap;
+    margin-top:20px;padding-top:14px;border-top:1px dashed var(--line);color:var(--muted);font-size:11px;
+  }
+  .score-details strong{color:var(--text);font-variant-numeric:tabular-nums}
+  .claude-panel{margin-top:18px}
+  .sim-tag{color:var(--green)}
+  .chat-line{display:grid;grid-template-columns:48px minmax(0,1fr);gap:16px;padding:22px 22px 18px}
+  .avatar{
+    width:48px;height:48px;display:grid;place-items:center;
+    border:1px solid var(--orange);border-radius:var(--control-radius);background:#241b11;color:var(--orange);
+    font-size:17px;font-weight:800;
+  }
+  .message{min-width:0;border-left:2px solid var(--line-strong);padding:2px 0 2px 17px}
+  .message-head{display:flex;align-items:baseline;justify-content:space-between;gap:14px;flex-wrap:wrap}
+  .message-head h2{font-size:13px;color:var(--orange);letter-spacing:.05em}
+  #claudeMood{color:var(--faint);font-size:10px}
+  #claudeReply{
+    margin-top:11px;color:var(--text);font-size:15px;line-height:1.7;
+    overflow-wrap:anywhere;white-space:pre-wrap;
+  }
+  #claudeReply.is-placeholder{color:var(--muted)}
+  .response-actions{
+    display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+    padding:0 22px 22px 86px;
+  }
+  .response-actions .btn{min-height:38px;padding:8px 13px;font-size:11px}
+  .simulation-note{margin-left:auto;color:var(--faint);font-size:9px}
+  footer{
+    display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;
+    margin-top:24px;padding-top:16px;border-top:1px solid var(--line);
+    color:var(--faint);font-size:10px;letter-spacing:.03em;
+  }
+  .footer-status{color:var(--muted)}
+  noscript{display:block;margin-top:18px;padding:14px;border:1px solid #ef7462;color:#ef9b8e;font-size:12px}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  @media (max-width:760px){
+    .shell{width:min(100% - 28px,620px);padding-top:18px}
+    .intro{padding:38px 0 28px}
+    .intro::before{left:18%}
+    .workspace{grid-template-columns:1fr}
+    textarea{min-height:170px}
+    .meter-body{min-height:330px}
+    .shortcut{width:100%;margin:2px 0 0}
+    .response-actions{padding-left:22px}
+    .simulation-note{width:100%;margin:2px 0 0}
+  }
+  @media (max-width:440px){
+    .shell{width:calc(100% - 20px)}
+    .topbar{align-items:flex-start;gap:10px}
+    .brand-build{max-width:160px}
+    .live-status{font-size:8px;white-space:normal;justify-content:flex-end;text-align:right}
+    .live-dot{margin-top:3px;flex:0 0 auto}
+    .intro-copy{font-size:13px}
+    .prompt-body,.meter-body{padding:17px}
+    .actions .btn{flex:1 1 auto}
+    .chat-line{grid-template-columns:36px minmax(0,1fr);gap:12px;padding:18px 16px}
+    .avatar{width:36px;height:36px;font-size:13px}
+    .message{padding-left:12px}
+    #claudeReply{font-size:13px}
+    .response-actions{padding:0 16px 18px}
+    .response-actions .btn{flex:1 1 auto}
+    .gauge-bars{gap:3px;height:30px}
+    .gauge-ticks{font-size:8px}
+  }
+  @media (prefers-reduced-motion:reduce){
+    *,*::before,*::after{scroll-behavior:auto!important;transition:none!important}
+    .collapse-scene.is-collapsing{overflow:visible}
+    .is-collapsing :is(.topbar,.intro,.panel,footer){
+      opacity:1!important;visibility:visible!important;transform:none!important;
+    }
+    .meltdown-overlay:not([hidden]){display:block}
+  }
 </style>
 </head>
 <body>
-<div class="wrap">
-  <header>
-    <div class="logo">🐱</div>
-    <h1>El Gato <span>Termômetro de Similaridade</span></h1>
-    <span class="badge" id="modeBadge">modo local</span>
+<a class="skip-link" href="#promptInput">Pular para o prompt</a>
+<div class="collapse-scene" id="collapseScene">
+<main class="shell">
+  <header class="topbar">
+    <div class="brand-mark" aria-hidden="true">=^.^=</div>
+    <div>
+      <div class="brand-name">EL GATO.EXE</div>
+      <div class="brand-build">CLAUDE_CODE // MEDIDOR DE CAOS</div>
+    </div>
+    <div class="live-status"><span class="live-dot" aria-hidden="true"></span>online e sem paciência</div>
   </header>
 
-  <div class="card">
-    <label class="label" for="promptInput">Seu prompt</label>
-    <textarea id="promptInput" placeholder="Cole seu prompt aqui…&#10;Ex: aprovo a árvore, e o jogo cadê?"></textarea>
-    <div class="row">
-      <button class="btn-primary" id="btnMeasure">◉ Medir El Gato</button>
-      <button class="btn-ghost" id="btnClear">Limpar</button>
-      <span class="hint">Enter + Ctrl para medir</span>
-    </div>
+  <section class="intro" aria-labelledby="pageTitle">
+    <h1 id="pageTitle">Seu prompt faria<br /> o Claude <span class="title-accent">surtar?</span></h1>
+    <p class="intro-copy">Seu prompt veio no grito e ainda deixou o Claude adivinhando a tarefa? O medidor pega <strong>agressividade e pedido mal explicado</strong>. Se o caos bater alto, vem o <strong>OOOO CRAUD!</strong></p>
+  </section>
+
+  <div class="workspace">
+    <section class="panel prompt-panel" aria-labelledby="promptSectionTitle">
+      <div class="panel-heading">
+        <span id="promptSectionTitle">Seu prompt</span>
+      </div>
+      <div class="prompt-body">
+        <label class="prompt-label" for="promptInput">Escreve como se o Viper já tivesse sumido:</label>
+        <textarea id="promptInput" aria-describedby="inputHelp shortcutHint" aria-keyshortcuts="Control+Enter Meta+Enter" placeholder="Ex.: MANO, CONSERTA ISSO AGORA MESMO, PORRA!!!"></textarea>
+        <div class="input-meta">
+          <span id="inputHelp">Tudo roda aqui. Nenhum prompt sai do navegador.</span>
+          <span id="charCount" aria-hidden="true">0 caracteres</span>
+        </div>
+        <div class="actions">
+          <button class="btn btn-primary" id="btnMeasure" type="button">&gt; Medir o caos</button>
+          <button class="btn" id="btnClear" type="button">Limpar</button>
+          <span class="shortcut" id="shortcutHint"><kbd>Ctrl</kbd> ou <kbd>⌘</kbd> + <kbd>Enter</kbd></span>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel meter-panel" id="meterPanel" aria-labelledby="meterSectionTitle">
+      <div class="panel-heading">
+        <span id="meterSectionTitle">Nível de El Gato</span>
+        <span>0—100</span>
+      </div>
+      <div class="meter-body">
+        <div class="score-line">
+          <output id="scoreNum" aria-live="polite">--</output><span class="percent" aria-hidden="true">%</span>
+        </div>
+        <h2 id="scoreLabel">AGUARDANDO MEDIÇÃO</h2>
+        <p id="scoreSub">Nenhum prompt analisado. A paciência ainda está inteira.</p>
+
+        <div class="thermometer" id="thermometer" role="meter" aria-label="Nível de caos do prompt" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" aria-valuetext="Ainda não medido">
+          <div class="thermo-readout"><span>caos detectado</span><span>100%</span></div>
+          <div class="gauge-bars" id="gaugeBars" aria-hidden="true">
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+            <span></span><span></span><span></span><span></span><span></span><span></span>
+          </div>
+          <div class="gauge-ticks" aria-hidden="true"><span>0 / sem caos</span><span>50 / suspeito</span><span>100 / patrão</span></div>
+        </div>
+        <p class="score-details">
+          <span>Agressividade <strong id="aggressionNum">–</strong></span>
+          <span>Pedido mal formulado <strong id="confusionNum">–</strong></span>
+        </p>
+      </div>
+    </section>
   </div>
 
-  <div class="card">
-    <div class="gauge-wrap">
-      <!-- semicircular gauge -->
-      <svg id="gauge" width="260" height="150" viewBox="0 0 200 115" aria-label="termômetro 0 a 100%">
-        <defs>
-          <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="0%">
-            <stop offset="0%" stop-color="#ef4444"/>
-            <stop offset="45%" stop-color="#f59e0b"/>
-            <stop offset="100%" stop-color="#22c55e"/>
-          </linearGradient>
-        </defs>
-        <!-- track -->
-        <path id="gaugeTrack" d="M 14 100 A 86 86 0 0 1 186 100" fill="none" stroke="#2a2a2e" stroke-width="14" stroke-linecap="round"/>
-        <!-- fill -->
-        <path id="gaugeFill" d="M 14 100 A 86 86 0 0 1 186 100" fill="none" stroke="url(#grad)" stroke-width="14" stroke-linecap="round" pathLength="100" stroke-dasharray="100" stroke-dashoffset="100" style="transition: stroke-dashoffset .7s cubic-bezier(.22,1,.36,1)"/>
-        <!-- ticks -->
-        <g stroke="#3f3f46" stroke-width="1" opacity="0.9">
-          <line x1="14" y1="100" x2="18" y2="92"/>
-          <line x1="100" y1="14" x2="100" y2="22"/>
-          <line x1="186" y1="100" x2="182" y2="92"/>
-        </g>
-        <!-- needle pivot -->
-        <circle cx="100" cy="100" r="4.5" fill="#ececec" />
-        <line id="needle" x1="100" y1="100" x2="100" y2="22" stroke="#ececec" stroke-width="2.2" stroke-linecap="round" style="transform-origin:100px 100px; transform: rotate(-90deg); transition: transform .7s cubic-bezier(.22,1,.36,1)"/>
-        <circle cx="100" cy="100" r="2" fill="#0e0e10"/>
-      </svg>
-      <div class="gauge-num" id="scoreNum">—</div>
-      <div class="gauge-label" id="scoreLabel">AGUARDANDO MEDIÇÃO</div>
-      <div class="gauge-sub" id="scoreSub">Cole um prompt e clique em Medir El Gato.</div>
+  <section class="panel claude-panel" aria-labelledby="replyTitle">
+    <div class="panel-heading">
+      <span>Claude reage</span>
+      <span class="sim-tag">resposta simulada</span>
     </div>
-
-    <div class="divider"></div>
-
-    <div class="list-title">Top 3 prompts mais próximos</div>
-    <div class="top3" id="top3">
-      <!-- filled by JS -->
+    <div class="chat-line">
+      <div class="avatar" aria-hidden="true">&gt;_</div>
+      <div class="message">
+        <div class="message-head">
+          <h2 id="replyTitle">Claude</h2>
+          <span id="claudeMood">paciência: estável (por enquanto)</span>
+        </div>
+        <p id="claudeReply" class="is-placeholder" aria-live="polite" aria-atomic="true">Manda um prompt aí. Prometo ler antes de fingir que o problema é seu.</p>
+      </div>
     </div>
+    <div class="response-actions">
+      <button class="btn" id="btnCopy" type="button" disabled>Copiar resposta</button>
+      <button class="btn" id="btnCopyPrompt" type="button" disabled>Copiar prompt</button>
+      <button class="btn" id="btnSound" type="button" aria-pressed="true">Som: ligado</button>
+      <span class="simulation-note">Nenhum Claude real foi contratado.</span>
+    </div>
+    <audio id="craudAudio" src="oooo-craud.mp3" preload="auto"></audio>
+    <p class="sr-only" id="copyStatus" aria-live="polite"></p>
+  </section>
+
+  <footer>
+    <span>EL GATO PROMPTS // humor local, sem API e sem build</span>
+    <span class="footer-status">FILE:// OK</span>
+  </footer>
+  <noscript>Sem JavaScript o termômetro não mede e o Claude consegue descansar. Ative o JavaScript para acabar com a paz dele.</noscript>
+</main>
+</div>
+<div class="meltdown-overlay" id="meltdownOverlay" aria-hidden="true" hidden>
+  <div class="signal-status">
+    <span class="signal-caption">EL GATO.EXE / OOOO CRAUD!</span>
+    <strong id="signalMessage"></strong>
+    <div class="signal-track"></div>
   </div>
-
-  <div class="card share-card" id="shareCard">
-    <div class="share-head">
-      <strong>Card para compartilhar</strong>
-      <span style="font-size:11px;color:var(--muted)">preview</span>
-    </div>
-    <div class="share-body" id="shareBody">Seu resultado aparecerá aqui.</div>
-    <div class="share-actions">
-      <button class="btn-ghost" id="btnCopy">Copiar texto</button>
-      <button class="btn-ghost" id="btnCopyPrompt">Copiar prompt</button>
-    </div>
-  </div>
-
-  <div class="footer">El Gato Prompts · MVP local · sem build · funciona em <code>file://</code> · <span id="footerMode">TF-IDF local</span></div>
 </div>
 
 <script src="app.js"></script>

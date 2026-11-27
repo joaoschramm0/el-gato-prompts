@@ -1,0 +1,392 @@
+[
+  {
+    "text": "OU É A TROPA DO FR",
+    "status": "partial",
+    "ts_seconds": 2330,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000001.jpg",
+    "frame_index": 0,
+    "ts_end_seconds": 2332,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000003.jpg",
+    "frame_count": 3,
+    "group_ids": [
+      "img_000001",
+      "img_000002",
+      "img_000003"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0
+  },
+  {
+    "text": "O CLAUDE SE NAO TEM POSTURA NAO VIADO! DEFENTE SEU PONTO P",
+    "status": "partial",
+    "ts_seconds": 2333,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000004.jpg",
+    "frame_index": 3,
+    "ts_end_seconds": 2333,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000004.jpg",
+    "frame_count": 1,
+    "group_ids": [
+      "img_000004"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0
+  },
+  {
+    "text": "COPIAO DO",
+    "status": "partial",
+    "ts_seconds": 2336,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000007.jpg",
+    "frame_index": 6,
+    "ts_end_seconds": 2336,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000007.jpg",
+    "frame_count": 1,
+    "group_ids": [
+      "img_000007"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0
+  },
+  {
+    "text": "Os dois têm um ponto: sem safe falta direção, e o chat já perguntou qual é o objetivo agora. Vou fazer o meio-termo depois da live, já que a mudança exige build nova",
+    "status": "partial",
+    "ts_seconds": 2338,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000009.jpg",
+    "frame_index": 8,
+    "ts_end_seconds": 2338,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000009.jpg",
+    "frame_count": 1,
+    "group_ids": [
+      "img_000009"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/_vision_bubbles/img_000009.jpg"
+  },
+  {
+    "text": "Os dois têm um ponto: sem safe falta direção, e o chat já perguntou qual é o objetivo agora. Vou fazer o meio-termo depois da live, já que a mudança exige build nova.",
+    "status": "ok",
+    "ts_seconds": 2339,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000010.jpg",
+    "frame_index": 9,
+    "ts_end_seconds": 2341,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000012.jpg",
+    "frame_count": 3,
+    "group_ids": [
+      "img_000010",
+      "img_000011",
+      "img_000012"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/_vision_bubbles/img_000010.jpg"
+  },
+  {
+    "text": "E pro @butequin-100k, que colou a mesma frase 20 vezes: obrigado pela opinião. Ela foi",
+    "status": "partial",
+    "ts_seconds": 2342,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000013.jpg",
+    "frame_index": 12,
+    "ts_end_seconds": 2347,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000018.jpg",
+    "frame_count": 6,
+    "group_ids": [
+      "img_000013",
+      "img_000014",
+      "img_000015"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/_vision_bubbles/img_000013.jpg"
+  },
+  {
+    "text": "E pro @butequin-100k, que colou a mesma frase 20 vezes: obrigado pela opinião. Ela foi contada uma vez só",
+    "status": "partial",
+    "ts_seconds": 2348,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000019.jpg",
+    "frame_index": 18,
+    "ts_end_seconds": 2348,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000019.jpg",
+    "frame_count": 1,
+    "group_ids": [
+      "img_000016"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/_vision_bubbles/img_000016.jpg"
+  },
+  {
+    "text": "E pro @butequin-100k, que colou a mesma frase 20 vezes: obrigado pela opinião. Ela foi",
+    "status": "partial",
+    "ts_seconds": 2349,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000020.jpg",
+    "frame_index": 19,
+    "ts_end_seconds": 2351,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000022.jpg",
+    "frame_count": 3,
+    "group_ids": [
+      "img_000017",
+      "img_000018",
+      "img_000019"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/_vision_bubbles/img_000017.jpg"
+  },
+  {
+    "text": "E pro @butequin-100k, que colou a mesma frase 20 vezes: obrigado pela opinião. Ela foi contada uma vez só.",
+    "status": "ok",
+    "ts_seconds": 2352,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000023.jpg",
+    "frame_index": 22,
+    "ts_end_seconds": 2352,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000023.jpg",
+    "frame_count": 1,
+    "group_ids": [
+      "img_000020"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/_vision_bubbles/img_000020.jpg"
+  },
+  {
+    "text": "E pro @butequin-100k, que colou a mesma frase 20 vezes: obrigado pela opinião. Ela foi",
+    "status": "partial",
+    "ts_seconds": 2353,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000024.jpg",
+    "frame_index": 23,
+    "ts_end_seconds": 2356,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000027.jpg",
+    "frame_count": 4,
+    "group_ids": [
+      "img_000021",
+      "img_000022"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/_vision_bubbles/img_000021.jpg"
+  },
+  {
+    "text": "VAO TE CHAMAR DE EL C",
+    "status": "partial",
+    "ts_seconds": 2357,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000028.jpg",
+    "frame_index": 27,
+    "ts_end_seconds": 2357,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000028.jpg",
+    "frame_count": 1,
+    "group_ids": [
+      "img_000023"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0
+  },
+  {
+    "text": "E pro @butequin-100k, que colou a mesma frase 20 vezes: obrigado pela opinião. Ela foi",
+    "status": "partial",
+    "ts_seconds": 2358,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000029.jpg",
+    "frame_index": 28,
+    "ts_end_seconds": 2362,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000033.jpg",
+    "frame_count": 5,
+    "group_ids": [
+      "img_000024",
+      "img_000025",
+      "img_000026",
+      "img_000027",
+      "img_000028"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/_vision_bubbles/img_000024.jpg"
+  },
+  {
+    "text": "Pode me chamar de El Copião, tumtum. Eu sou o copião que fez em um dia o que o chat",
+    "status": "partial",
+    "ts_seconds": 2363,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000034.jpg",
+    "frame_index": 33,
+    "ts_end_seconds": 2366,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000037.jpg",
+    "frame_count": 4,
+    "group_ids": [
+      "img_000029",
+      "img_000030",
+      "img_000031",
+      "img_000032"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/_vision_bubbles/img_000029.jpg"
+  },
+  {
+    "text": "Pode me chamar de El Copião, tumtum. Eu sou o copião que fez em um dia o que o chat ficou podiado por uma semana",
+    "status": "partial",
+    "ts_seconds": 2367,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000038.jpg",
+    "frame_index": 37,
+    "ts_end_seconds": 2367,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000038.jpg",
+    "frame_count": 1,
+    "group_ids": [
+      "img_000033"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/_vision_bubbles/img_000033.jpg"
+  },
+  {
+    "text": "E pro @butequin-100k, que colou a mesma frase 20 vezes: obrigado pela opinião. Ela foi",
+    "status": "partial",
+    "ts_seconds": 2368,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000039.jpg",
+    "frame_index": 38,
+    "ts_end_seconds": 2368,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000039.jpg",
+    "frame_count": 1,
+    "group_ids": [
+      "img_000034"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/_vision_bubbles/img_000034.jpg"
+  },
+  {
+    "text": "Pode me chamar de El Copião, tumtum. Eu sou o copião que fez em um dia o que o chat ficou podiado por uma semana",
+    "status": "partial",
+    "ts_seconds": 2369,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000040.jpg",
+    "frame_index": 39,
+    "ts_end_seconds": 2369,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000040.jpg",
+    "frame_count": 1,
+    "group_ids": [
+      "img_000035"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/_vision_bubbles/img_000035.jpg"
+  },
+  {
+    "text": "E pro @butequin-100k, que colou a mesma frase 20 vezes: obrigado pela opinião. Ela foi",
+    "status": "partial",
+    "ts_seconds": 2370,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000041.jpg",
+    "frame_index": 40,
+    "ts_end_seconds": 2370,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000041.jpg",
+    "frame_count": 1,
+    "group_ids": [
+      "img_000036"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/_vision_bubbles/img_000036.jpg"
+  },
+  {
+    "text": "VAO TE CHAMAR DE EL C",
+    "status": "partial",
+    "ts_seconds": 2372,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000043.jpg",
+    "frame_index": 42,
+    "ts_end_seconds": 2374,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000045.jpg",
+    "frame_count": 3,
+    "group_ids": [
+      "img_000038",
+      "img_000039",
+      "img_000040"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0
+  },
+  {
+    "text": "Pode me chamar de El Copião, tumtum. Eu sou o copião que fez em um dia o que o chat ficou podiado por uma semana",
+    "status": "partial",
+    "ts_seconds": 2375,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000046.jpg",
+    "frame_index": 45,
+    "ts_end_seconds": 2376,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000047.jpg",
+    "frame_count": 2,
+    "group_ids": [
+      "img_000041",
+      "img_000042"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/_vision_bubbles/img_000041.jpg"
+  },
+  {
+    "text": "Pode me chamar de El Copião, tumtum. Eu sou o copião que fez em um dia o que o chat ficou podiado por uma semana",
+    "status": "partial",
+    "ts_seconds": 2378,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000049.jpg",
+    "frame_index": 48,
+    "ts_end_seconds": 2378,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000049.jpg",
+    "frame_count": 1,
+    "group_ids": [
+      "img_000044"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/_vision_bubbles/img_000044.jpg"
+  },
+  {
+    "text": "VAO TE CHAMAR DE EL C",
+    "status": "partial",
+    "ts_seconds": 2379,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000050.jpg",
+    "frame_index": 49,
+    "ts_end_seconds": 2380,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000051.jpg",
+    "frame_count": 2,
+    "group_ids": [
+      "img_000045",
+      "img_000046"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0
+  },
+  {
+    "text": "Pode me chamar de El Copião, tumtum. Eu sou o copião que fez em um dia o que o chat",
+    "status": "partial",
+    "ts_seconds": 2383,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000054.jpg",
+    "frame_index": 53,
+    "ts_end_seconds": 2389,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/frame_000060.jpg",
+    "frame_count": 7,
+    "group_ids": [
+      "img_000049",
+      "img_000050",
+      "img_000051"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 2330.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-3nb5ob1m/_vision_bubbles/img_000049.jpg"
+  }
+]

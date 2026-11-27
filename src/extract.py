@@ -8,8 +8,6 @@ import shutil
 import re
 from typing import List, Dict, Optional
 
-import cv2
-import numpy as np
 from PIL import Image
 
 log = logging.getLogger(__name__)
@@ -31,8 +29,14 @@ def extract_frames(
     fps: int = 1,
     sample_seconds: Optional[int] = None,
     limit_frames: Optional[int] = None,
+    start_seconds: Optional[float] = None,
+    chat_history: bool = False,
 ) -> List[str]:
-    """Extrai frames via ffmpeg com crop+upscale. Retorna lista de paths."""
+    """Extrai frames via ffmpeg com crop+upscale. Retorna lista de paths.
+
+    start_seconds faz seek no vídeo de entrada (offset real). Com fps=1 cada
+    frame representa 1 segundo; o timestamp absoluto é start + índice/fps.
+    """
     if not _ffmpeg_exists():
         raise RuntimeError("ffmpeg não encontrado no PATH")
 
@@ -44,9 +48,16 @@ def extract_frames(
     out.mkdir(parents=True, exist_ok=True)
     # limpa frames antigos? não - apenas sobrescreve
     # filter: fps=1, crop rodapé, upscale 2x neighbor (preserva pixel art / texto)
-    vf = f"fps={fps},crop=w=iw:h=ih*{CROP_H:.3f}:x=0:y=ih*{CROP_Y0:.3f},scale=2*iw:2*ih:flags=neighbor"
+    crop = f"crop=w=iw:h=ih*{CROP_H:.3f}:x=0:y=ih*{CROP_Y0:.3f}"
+    if chat_history:
+        crop = "crop=w=iw*0.43:h=ih*0.92:x=iw*0.29:y=ih*0.03"
+    vf = f"fps={fps},{crop},scale=2*iw:2*ih:flags=neighbor"
 
-    cmd = ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y", "-i", str(p), "-vf", vf]
+    cmd = ["ffmpeg", "-hide_banner", "-loglevel", "error", "-y"]
+    if start_seconds is not None and start_seconds > 0:
+        # seek de entrada: o primeiro frame extraído corresponde a start_seconds
+        cmd += ["-ss", f"{float(start_seconds):.3f}"]
+    cmd += ["-i", str(p), "-vf", vf]
     if sample_seconds is not None:
         cmd += ["-t", str(sample_seconds)]
     if limit_frames is not None:
@@ -63,6 +74,8 @@ def extract_frames(
 
 def is_dark_bar(image_path: str, dark_thresh: int = 60, dark_ratio: float = 0.45) -> bool:
     """Heurística: barra escura no rodapé - % de pixels escuros > dark_ratio."""
+    import cv2  # import tardio: mantém o módulo testável sem OpenCV
+
     img = cv2.imread(image_path, cv2.IMREAD_GRAYSCALE)
     if img is None:
         return False
@@ -129,12 +142,24 @@ def extract_prompts(
     out_path: str = "data/prompts.json",
     use_ocr: bool = True,
     save_no_ocr: bool = True,
+    fps: float = 1.0,
+    start_seconds: float = 0.0,
 ) -> List[Dict]:
     """
     A partir de frames já extraídos (ou video_path), detecta candidatos via dark-bar
     e extrai texto via OCR. Se OCR não disponível, salva frames e loga.
     Retorna lista de {frame, text, is_dark_bar, ts}.
+
+    O timestamp é derivado de start_seconds + índice/fps (fps=1 e start=0
+    preservam o comportamento antigo: ts = índice).
     """
+    if fps <= 0:
+        raise ValueError("fps deve ser > 0")
+
+    def timestamp(index: int):
+        value = round(float(start_seconds) + index / float(fps), 3)
+        return int(value) if float(value).is_integer() else value
+
     if frames is None:
         if video_path is None:
             # tenta usar frames já em disco
@@ -142,7 +167,7 @@ def extract_prompts(
             if not frames:
                 raise ValueError("Nenhum frame encontrado; passe video_path ou gere frames antes")
         else:
-            frames = extract_frames(video_path, out_dir=frames_dir)
+            frames = extract_frames(video_path, out_dir=frames_dir, start_seconds=start_seconds)
 
     # checa OCR disponível
     ocr_available = False
@@ -164,14 +189,15 @@ def extract_prompts(
     for idx, fp in enumerate(frames):
         # dedup por hash de imagem (pula OCR se frame idêntico ao anterior) - economiza ~60%
         try:
-            h = hashlib.md5(open(fp, "rb").read()).hexdigest()
+            with open(fp, "rb") as handle:
+                h = hashlib.md5(handle.read()).hexdigest()
             if h == prev_hash:
                 # duplica anterior sem OCR
                 prev = results[-1] if results else None
                 entry = {
                     "frame": fp,
                     "frame_index": int(idx),
-                    "ts_seconds": int(idx),
+                    "ts_seconds": timestamp(idx),
                     "is_dark_bar": bool(prev["is_dark_bar"]) if prev else False,
                     "is_candidate": bool(prev["is_candidate"]) if prev else False,
                     "text": str(prev["text"]) if prev else "",
@@ -201,7 +227,7 @@ def extract_prompts(
         entry = {
             "frame": fp,
             "frame_index": int(idx),
-            "ts_seconds": int(idx),
+            "ts_seconds": timestamp(idx),
             "is_dark_bar": bool(dark),
             "is_candidate": bool(is_candidate),
             "text": str(text),
@@ -235,7 +261,9 @@ if __name__ == "__main__":
     p.add_argument("--frames-dir", default="data/frames")
     p.add_argument("--sample", type=int, default=None, help="segundos para amostrar")
     p.add_argument("--limit-frames", type=int, default=None)
+    p.add_argument("--start", type=float, default=0.0, help="offset inicial em segundos")
+    p.add_argument("--fps", type=float, default=1.0, help="fps de extração")
     args = p.parse_args()
-    frames = extract_frames(args.video, out_dir=args.frames_dir, sample_seconds=args.sample, limit_frames=args.limit_frames)
-    res = extract_prompts(frames=frames, frames_dir=args.frames_dir, out_path=args.out)
+    frames = extract_frames(args.video, out_dir=args.frames_dir, sample_seconds=args.sample, limit_frames=args.limit_frames, start_seconds=args.start)
+    res = extract_prompts(frames=frames, frames_dir=args.frames_dir, out_path=args.out, fps=args.fps, start_seconds=args.start)
     print(f"{len(res)} prompts -> {args.out}")

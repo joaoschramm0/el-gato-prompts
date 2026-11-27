@@ -1,0 +1,60 @@
+[
+  {
+    "text": "de tacar hate no jogo do El Gato, não está ficando ruim uma bosta",
+    "status": "partial",
+    "ts_seconds": 3646,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-mk772thc/frame_000047.jpg",
+    "frame_index": 46,
+    "ts_end_seconds": 3647,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-mk772thc/frame_000048.jpg",
+    "frame_count": 2,
+    "group_ids": [
+      "img_000047",
+      "img_000048"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 3600.0
+  },
+  {
+    "text": "n de tacar hate no jogo do El Gato, não está ficando ruim uma bosta",
+    "status": "partial",
+    "ts_seconds": 3648,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-mk772thc/frame_000049.jpg",
+    "frame_index": 48,
+    "ts_end_seconds": 3648,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-mk772thc/frame_000049.jpg",
+    "frame_count": 1,
+    "group_ids": [
+      "img_000049"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 3600.0
+  },
+  {
+    "text": "n de tacar hate no jogo do El Gato, não está ficando ruim uma bosta",
+    "status": "partial",
+    "ts_seconds": 3650,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-mk772thc/frame_000051.jpg",
+    "frame_index": 50,
+    "ts_end_seconds": 3659,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-mk772thc/frame_000060.jpg",
+    "frame_count": 10,
+    "group_ids": [
+      "img_000051",
+      "img_000052",
+      "img_000053",
+      "img_000054",
+      "img_000055",
+      "img_000056",
+      "img_000057",
+      "img_000058",
+      "img_000059",
+      "img_000060"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 3600.0
+  }
+]

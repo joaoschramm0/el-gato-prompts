@@ -1,0 +1,95 @@
+[
+  {
+    "text": "E AIII MANDA A BOA?",
+    "status": "ok",
+    "ts_seconds": 5231,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-r7c80tlg/frame_000001.jpg",
+    "frame_index": 0,
+    "ts_end_seconds": 5231,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-r7c80tlg/frame_000001.jpg",
+    "frame_count": 1,
+    "group_ids": [
+      "img_000001"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 5231.0
+  },
+  {
+    "text": "CARA GOSTEI DO PLANO PARECE BOM VAI FUNCIONARI CADE A PESQUISAAA",
+    "status": "ok",
+    "ts_seconds": 5233,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-r7c80tlg/frame_000003.jpg",
+    "frame_index": 2,
+    "ts_end_seconds": 5234,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-r7c80tlg/frame_000004.jpg",
+    "frame_count": 2,
+    "group_ids": [
+      "img_000003",
+      "img_000004"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 5231.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-r7c80tlg/_vision_bubbles/img_000003.jpg"
+  },
+  {
+    "text": "CARA GOSTEI DO PLANO PARECE BOM VAI FUNCIONAR! CADE A PESQUISAAA",
+    "status": "ok",
+    "ts_seconds": 5235,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-r7c80tlg/frame_000005.jpg",
+    "frame_index": 4,
+    "ts_end_seconds": 5235,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-r7c80tlg/frame_000005.jpg",
+    "frame_count": 1,
+    "group_ids": [
+      "img_000005"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 5231.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-r7c80tlg/_vision_bubbles/img_000005.jpg"
+  },
+  {
+    "text": "RI CADE A PESQUISAAA",
+    "status": "partial",
+    "ts_seconds": 5236,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-r7c80tlg/frame_000006.jpg",
+    "frame_index": 5,
+    "ts_end_seconds": 5290,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-r7c80tlg/frame_000060.jpg",
+    "frame_count": 55,
+    "group_ids": [
+      "img_000006",
+      "img_000007",
+      "img_000008",
+      "img_000009",
+      "img_000010",
+      "img_000011",
+      "img_000012",
+      "img_000013",
+      "img_000014",
+      "img_000015",
+      "img_000016",
+      "img_000017",
+      "img_000018",
+      "img_000019",
+      "img_000020",
+      "img_000021",
+      "img_000022",
+      "img_000023",
+      "img_000024",
+      "img_000025",
+      "img_000026",
+      "img_000027",
+      "img_000028",
+      "img_000029",
+      "img_000030",
+      "img_000031",
+      "img_000032"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 5231.0
+  }
+]

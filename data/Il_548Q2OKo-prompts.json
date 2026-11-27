@@ -1,0 +1,74 @@
+[
+  {
+    "text": "cheio daqui pra frente, durante a live, todo texto que abrir vai direto pra tela de esquerda, por 3 horas.",
+    "status": "partial",
+    "ts_seconds": 612,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-rqn5zygb/frame_000013.jpg",
+    "frame_index": 12,
+    "ts_end_seconds": 614,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-rqn5zygb/frame_000015.jpg",
+    "frame_count": 3,
+    "group_ids": [
+      "img_000012"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 600.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-rqn5zygb/_vision_bubbles/img_000012.jpg"
+  },
+  {
+    "text": "a, chato: daqui pra frente, durante a live, todo teste que abrir vai direto pra tela da esquerda.",
+    "status": "partial",
+    "ts_seconds": 615,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-rqn5zygb/frame_000016.jpg",
+    "frame_index": 15,
+    "ts_end_seconds": 619,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-rqn5zygb/frame_000020.jpg",
+    "frame_count": 5,
+    "group_ids": [
+      "img_000013"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 600.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-rqn5zygb/_vision_bubbles/img_000013.jpg"
+  },
+  {
+    "text": "Cara, explica pra galera que tipo de teste é esse que você tá fazendo aí.",
+    "status": "ok",
+    "ts_seconds": 620,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-rqn5zygb/frame_000021.jpg",
+    "frame_index": 20,
+    "ts_end_seconds": 634,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-rqn5zygb/frame_000035.jpg",
+    "frame_count": 15,
+    "group_ids": [
+      "img_000014",
+      "img_000015",
+      "img_000016"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 600.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-rqn5zygb/_vision_bubbles/img_000014.jpg"
+  },
+  {
+    "text": "Cara, explica pra galeria que tipo de teste é esse que você tá fazendo aí.",
+    "status": "ok",
+    "ts_seconds": 635,
+    "frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-rqn5zygb/frame_000036.jpg",
+    "frame_index": 35,
+    "ts_end_seconds": 659,
+    "frame_end": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-rqn5zygb/frame_000060.jpg",
+    "frame_count": 25,
+    "group_ids": [
+      "img_000017",
+      "img_000018",
+      "img_000019"
+    ],
+    "model": "opencode-go/qwen3.8-flash",
+    "fps": 1,
+    "start_seconds": 600.0,
+    "crop_frame": "/home/joao/dev/el-gato-prompts/data/frames_vision/run-rqn5zygb/_vision_bubbles/img_000017.jpg"
+  }
+]
